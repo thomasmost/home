@@ -42,8 +42,8 @@ module.exports = {
       server: { baseDir: ["public"] }
     }),
     new CopyWebpackPlugin([
-      { from: "src/static" }
-    ])
+       { from: "src/static" }
+    ]),
   ],
   entry: ["./src/main.tsx"],
   output: {

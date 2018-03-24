@@ -11,11 +11,11 @@ export class TcmFooter extends React.Component {
    render()
    {
       return <footer>
-            <a href="https://www.twitter.com/thomascmost" title="Twitter" id='twitter-footer-link' target='_blank'></a>
-            <a href="https://www.instagram.com/thomascmost" title="Instagram" id='instagram-footer-link' target='_blank'></a>
-            <a href="https://masochisticmisandrist.tumblr.com" title="Tumblr" id='tumblr-footer-link' target='_blank'></a>
-            <a href="https://www.yollerhorn.com/thomas" title="Yollerhorn" id='yollerhorn-footer-link' target='_blank'></a>
-          </footer>
+            <a href="https://www.twitter.com/thomascmost" title="Twitter" id="twitter-footer-link" target="_blank"></a>
+            <a href="https://www.instagram.com/thomascmost" title="Instagram" id="instagram-footer-link" target="_blank"></a>
+            <a href="https://masochisticmisandrist.tumblr.com" title="Tumblr" id="tumblr-footer-link" target="_blank"></a>
+            <a href="https://www.yollerhorn.com/thomas" title="Yollerhorn" id="yollerhorn-footer-link" target="_blank"></a>
+          </footer>;
    }
 }
 
@@ -29,5 +29,3 @@ export class TcmFooter extends React.Component {
 //    }
 //    return rngDots
 // }
-
-module.exports = TcmFooter;

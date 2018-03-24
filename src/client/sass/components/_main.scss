@@ -13,11 +13,6 @@ $grid-624: (
   gutter: 0px,
   media: 624px,
 );
-$grid-712: (
-  columns: 12,
-  gutter: 0px,
-  media: 768px,
-);
 $grid-768: (
   columns: 12,
   gutter: 0px,
@@ -31,10 +26,10 @@ $grid-1024: (
 
 @include keyframes(sharpen) {
  0% {
-   background-image: filter(url("../assets/bg.jpg"), blur(20px));
+   background-image: filter(url("../assets/deepspace.jpg"), blur(20px));
  }
  100% {
-   background-image: filter(url("../assets/bg.jpg"), blur(0px));
+   background-image: filter(url("../assets/deepspace.jpg"), blur(0px));
  }
 }
 
@@ -45,8 +40,7 @@ html {
       position: relative;
       padding-top: 1.6em;
       div#bg {
-         background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAXCAYAAABj7u2bAAACCElEQVRIie2WQW/TQBCFv1nvxnZoaSpKqyogEGeExAHx7/kB/IJyQUJAg5BISZq0Te2d4WA3cUqboBpKD30He7U72nl+82bXEkJq3CG4/03gMu4JrcM9oXW4c4R86x0MkHpgsrwml+IA5Iq4RnwrQma2nAxrEGzON6A1qd82q15/v2TXfPzadaket+QhWcGkCbstQsZyLa/DP1XoquTrr82WXSYrkizm1exSmKF1iBMhcQ6rVWzf9n8AQUBA5qI5Okk1iiqo6VzPloRWl+DiWNjf3SHtBDQqphHDkUhkq5vzbThm8OMI7317QqsKVhEC5yBLA3maUpYFqp5e5jganRAVgndLu7QytSFrbWoGqoqhRIMsESaDT7x82mV/t8fx5IxmA7Qi5MSQ2rAXTb3UW3KhkiMkCRh0grC3vUH+cJO3r/q1rxamb1UyJw7vhWjG7DwirjKu1dTEDDPwiaMTAmJwGpX9vT7v3n/kw5cRL57sMDw4np/UctN/ajMjeE/wHtFzeknJaOb4GT15EjE1ZgpOYKObEXyCWZV3VoJYJMs6+NRzePgdnwSQFm0fDTYdZB1hUOT4xw9IzZF8HnJWFmx1PZTGeaGMJxPMlEVRqzOn9+gZZVkAOr9wb64Q4NUoBJ6/ec1JGemnBdsnYw6+HjEdTokiTGqV1Jr+EsyMPM8BOD2dIuIA4Rd+3s0WW6IGfQAAAABJRU5ErkJggg==');
-         //background-image: url("../assets/bg.jpg");
+         background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAFdklEQVRIiUWWzW8cxxHFf6+652M/uCQtmbIkO3YcQ4ATBDkF+f8R5B4giJE4DhTDsSxLFilyObuzM91VOQzt9KUPhcKrV1Wo95RXLwIPLDUEiXCQJYQBYGaAQFo+/v8CkBmBYwTIgUpEgIHCIRzJl1yzJSuETARONiUcx6zFwwAnWYdMuDtYxn1JMuUH2AqACMIdWQIFtVRkWuI1CAnFzyQqUQooEVQSwqOSQVju8BrIhKxdMBBSC75UHQHuQsrIOrwWUhZGJcIhRNtkoFJ9IpiBQClDOCkbk59IOBGVaS7IRCYCSShnzBoitHB0IRpkPQqBZiQn3H9hHQFBQ06iziOWM8GMvKIkqo94KdQIyuxgQWEi54yUCYK89FKA8If5g8hNj4fhFZqmJTc98+S4BREnctPSpo46H5lrwZqO4gVTxqyjzCOyjOQoi4wQlcpELRNBgERud4/I3ZacVtTjkXkacYzc9NQa5D4Ir+z3ha4/o20T06nFa6ZKwIxZhcYIBGoRKxqt6dZG1kyKyna7xggOhz3H45HhcEc0Rt598gIpUQ4DuV2z9socI6fixCRWm54nV0949OgZ33/7hh9efouZocaZOaJe9GdnKLdM1ejWG7quI/dO1xZ2VHoqhjPc3XEcD6y25/Tn50QL+XD3jqbbMB4Hck5szz/kk48/hTpBSaxXW54/f0rbr9i7sfn8GZd9UO9u+eaf3/D841/R7p5wVAt9gzbG+rzj7b/+RjseePr8I453t7z54RX762vcZ2qcmE4TcT+Th3evUV6Rzi9xEz/d3eBvGn73+y/YbVe8en3Ht2/vCe3xXUO9vGT72VPOUkd8+Bvm717z/tUbtOlY71p6Ncy3R9aHA2k+weGe//77Jbf3e8bjgGJiLiPVKyZD6cmfwueJ/MEzbHuFjyeUNvTbDe26QZGZj0G3aujWHe/vJ+xsx+7Zx1xdXPD265cM//kH5eY1oZnGxPkHZ3z65a8ZypF2t+J0fc3f//wXqBOhStuKMlVqCWRP/hiYsHaDdleQMqEeRUN0W1RnNE+UYSJ1a9J6RUWYKrRBu+7pUqbe3bDpjd16zf0wMB1uGaPy0W+/4PHjC17+9SuGr7/icHdDzhBeiajILv8QdC1qVqjtkWWiBOyuoNnQXDzC+o7pzTUpGbU4QiAnYoI6YilI/RmrbkWKE7fff8d8v8es4l6h79leXqA6MQ03+OmIykjMM1k+wyyiLIcnVFBqiOsf4TBQP/+S0n1G83hH3P6E9WuiFnQc4DQQ80g9DtRmzXx2hZcB9jc0FlALUSvd7jHzuMenETW2dBfHS0V58yIst6AE63O0PaMeJtjvISpab9HZJba7wG/eQUD68CkM7/HhjiAhIMq0nN5utdz94ZY4DtD16OKM1HfE6YifDigedIFKtgC8oiw03iMC5gqtESXQsIdhT71+jQhUfdGKrsGSLd1oemgb/P4d3A/QrcGEYiamQhoTZiJyRt7iZcSSiApZOVASEPhpQNOINR00LSGHtCyMpgHLLZhgfI9pR1CJMoLPqGkW+SWwOuLTTLQtKQPjAVlFTSLUYXlDcCAUZCVhFhBOJC0sqcQ8LoIrQ9mQGQoRGJQRv5+x1YpkCZ9OxHQkxhPWNBjgAsNQWZbVjxOaE2gCZUwOJrIQuBMR5CYTzoPeG2Zp0SnACZTAZL/M27wAD2OgYhk8ZuqpkExQfNmjtNgIRcXnG/CCUo+6FdlscTv24HWUQIiIBVaAezzEC2EVDFKTCS9EnZHBYqVA7ihAVVgWyBaj4gFTQRJhq4XoPJCVgoiliAUUJGEyvDoYWDYIER6LUbOEvPyi5CZBGNUrKRsRQcRMWEIySELxs/pXRAc5kO35H4wVGoBNmgTAAAAAAElFTkSuQmCC');
          background-position: center center;
          background-size: cover;
          display: block;
@@ -59,75 +53,74 @@ html {
          z-index: -1;
          &.bg-loaded {
             @include animation(sharpen .5s both);
-            background-image: url("../assets/bg.jpg");
+            background-image: url("../assets/deepspace.jpg");
          }
       }
 
       div#app {
          @include grid-container;
          padding: 1.6em;
-         box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+         // box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
          width: 96%;
-         max-width: 1024px;
+         // max-width: 1024px;
          min-width: 412px;
          margin: auto;
          margin-bottom: 1.6em;
-         background-color: white;
+         // background-color: white;
             font-family: 'Poppins', sans-serif;
 
-         h1 {
-            @include grid-column (6 of 12);
-               @include grid-shift(1);
+         .headings {
             font-family: 'Poppins', sans-serif;
-            font-size: modular-scale(2);
-            margin-bottom: .25em;
             text-align: left;
-            margin-top: 3%;
-            @include grid-media($grid-512) {            
-               @include grid-column (6 of 12);
-               font-family: 'Poppins', sans-serif;
-               font-size: modular-scale(3);
+            h1 {
+               font-size: modular-scale(2);
                margin-bottom: .25em;
                text-align: left;
                margin-top: 3%;
+               @include grid-media($grid-512) {    
+                  font-size: modular-scale(2);
+                  margin-bottom: .25em;
+               }
+   
+               @include grid-media($grid-624) {
+                  @include grid-column (12 of 12);
+                  @include grid-shift(0);
+                  font-size: modular-scale(3);
+                  margin-top: 0;
+               }
             }
+            h2 {
+               @include grid-column (12 of 12);
+               font-size: modular-scale(1);
+               font-weight: 300;
+               margin-top: 1em;
+               margin-bottom: 1em;
+               text-align: left;
+               display: none;
+               @include grid-media($grid-512) {            
+                  font-size: modular-scale(2);
+                  display: block;
+               }
+               @include grid-media($grid-624) {
+                  @include grid-column (9 of 12);
+                  margin-top: 0;
+                  font-size: modular-scale(2);
+               }
+            }
+         }
 
-            @include grid-media($grid-624) {
-               @include grid-column (9 of 12);
-               @include grid-shift(0);
-               text-align: right;
-               font-size: modular-scale(3);
-               margin-top: 0;
-            }
-         }
-         h2 {
-            @include grid-column (12 of 12);
-            font-family: 'Poppins', sans-serif;
-            font-size: modular-scale(1);
-            font-weight: 300;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            text-align: left;
-            display: none;
-            @include grid-media($grid-512) {            
-               font-size: modular-scale(2);
-            }
-            @include grid-media($grid-624) {
-               @include grid-column (9 of 12);
-               display: block;
-               text-align: right;
-               margin-top: 0;
-               font-size: modular-scale(2);
-            }
-         }
          .img-wrapper {
+            display: none;
             @include grid-column(4 of 12);
-            @include grid-media($grid-624) {
+            @include grid-media($grid-768) {
                @include grid-column(3 of 12);
+               display: block;
             }
             img  {
                @include grid-column (12 of 12);
-               border-radius: 50%;
+               border-radius: 50%;            
+               box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.3);
+
             }
             .top-nav {
                display: none;
@@ -140,13 +133,10 @@ html {
                }
             }
          }
-
-         .header-block {
-            @include grid-column(12 of 12);
-            @include grid-media($grid-768) {
-               @include grid-shift(1);
-               @include grid-column (8 of 12);
-            }
+         .content-wrapper {
+            @include grid-column(8 of 12);
+            background-color: white;
+            padding: 40px;
          }
 
          .top-nav {
@@ -192,7 +182,7 @@ html {
             .content-block {
                margin-top: 1em;
                @include grid-column(12 of 12);
-               @include grid-media($grid-712) {
+               @include grid-media($grid-768) {
                   @include grid-column(9 of 12);
                }
                p {
@@ -411,7 +401,7 @@ footer  {
 .header-text {
    @include grid-column(12 of 12);
    margin-top: .5em;
-   @include grid-media($grid-712) {
+   @include grid-media($grid-768) {
       @include grid-column(9 of 12);
    }
 

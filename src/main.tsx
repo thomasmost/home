@@ -1,8 +1,23 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-require("./client/sass/index");
+
+import createBrowserHistory from "history/createBrowserHistory";
+const history = createBrowserHistory();
+
+import {
+   Link,
+   match,
+   Redirect
+ } from "react-router-dom";
+
+import { Route, Router, Switch } from "react-router";
 
 import { App } from "./client/app";
+import { LandingPage } from "./client/components/landing-page";
+import { AboutPage } from "./client/components/about-page";
+
+// SASS
+require("./client/sass/index");
 
 window.onload = function loadStuff() {
   // Quit early if older browser (e.g. IE 8).
@@ -26,7 +41,7 @@ window.onload = function loadStuff() {
   // Finally, trigger the whole preloading chain by giving the dummy
   // image its source.
 
-   // img.src = require("./client/assets/bg.jpg");
+   img.src = require("./client/assets/deepspace.jpg");
 
 };
 
@@ -35,7 +50,18 @@ abstract class HaltAnd
     static CatchFire()
     {
       ReactDOM.render(
-              <App />,
+         <Router history={history}>
+            <App>
+               <Switch>
+                  <Route exact path="/" component={ LandingPage } />
+                  {/* <Route path="contact" component={ ContactPage } /> */}
+                  <Route path="/about" component={ AboutPage } />
+                  {/* <Route path="users" component={ Users }>
+                  <Route path="/user/:username" component={ User }/>
+               </Route>*/}
+               </Switch>
+            </App>
+         </Router>,
           document.getElementById("app")
       );
 
