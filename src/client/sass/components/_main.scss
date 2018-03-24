@@ -13,10 +13,20 @@ $grid-624: (
   gutter: 0px,
   media: 624px,
 );
+$grid-712: (
+  columns: 12,
+  gutter: 0px,
+  media: 768px,
+);
 $grid-768: (
   columns: 12,
   gutter: 0px,
   media: 768px,
+);
+$grid-1024: (
+  columns: 12,
+  gutter: 0px,
+  media: 1024px,
 );
 
 @include keyframes(sharpen) {
@@ -182,7 +192,7 @@ html {
             .content-block {
                margin-top: 1em;
                @include grid-column(12 of 12);
-               @include grid-media(712px) {
+               @include grid-media($grid-712) {
                   @include grid-column(9 of 12);
                }
                p {
@@ -206,7 +216,7 @@ html {
                   @include grid-media($grid-512) {
                      @include grid-column(6 of 12);
                   }
-                  @include grid-media(1024px) {
+                  @include grid-media($grid-1024) {
                      @include grid-column(4 of 12);
                   }
                   margin-bottom: 2em;
@@ -260,7 +270,7 @@ html {
             @include grid-media($grid-768) {
                @include grid-column (6 of 12);
             }
-            @include grid-media(1024px) {
+            @include grid-media($grid-1024) {
                @include grid-column (4 of 12);
 
             }
@@ -401,7 +411,7 @@ footer  {
 .header-text {
    @include grid-column(12 of 12);
    margin-top: .5em;
-   @include grid-media(712px) {
+   @include grid-media($grid-712) {
       @include grid-column(9 of 12);
    }
 
