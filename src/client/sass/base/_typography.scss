@@ -1,5 +1,6 @@
 $display-stack: "Courier New", serif;
 $body-stack: "Courier New", serif; //"Poppin", sans-serif;
+$block-stack: "Poppin", sans-serif;
 
 *, p, label {
    font-family: $body-stack;
@@ -35,8 +36,12 @@ h1 {
 }
 
 h3 {
-   font-size: modular-scale(2);
+   font-size: modular-scale(1);
    margin-bottom: .5em;
+   @include grid-media($grid-800)
+   {
+      font-size: modular-scale(2);
+   }
 }
 
 a {

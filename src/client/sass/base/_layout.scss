@@ -93,12 +93,13 @@ $grid-base: (
       position: fixed;
       bottom: 0;
       left:0;
-      padding: 20px 0;
+      padding: 10px 0;
       padding-left: 2.2%;
       background: white;
       a {
          display: inline-block;
          margin-right: 40px;
+         line-height: 24px;
       }
       @include grid-media($grid-base)
       {

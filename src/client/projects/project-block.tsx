@@ -7,12 +7,15 @@ interface IProjectBlockProps {
    link?:string;
 }
 
-var projectHeader = (title: string, imageUrl: string) => <div>
+var projectHeader = (title: string, imageUrl: string) => <div className="project-header">
       <img className="project-image" src={imageUrl} />
       <div className="project-title">{title}</div>
    </div>
 
 export const ProjectBlock = (props: IProjectBlockProps) => <div className="project">
    {props.link ? <a href={props.link} target="_blank">{projectHeader(props.title, props.imageUrl)}</a> : <div>{projectHeader(props.title, props.imageUrl)}</div>}
+   <div className="project-desc">
+      {props.description}
+   </div>
 </div>
 

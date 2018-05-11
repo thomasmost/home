@@ -11,6 +11,16 @@ const Projects: Project[] = [
                   "Yollerhorn is a tool for creators to promote their work and grow their resume in a single unified space. Our goal is to build a robust app that brings artists and fans together, while serving the individual needs of a wide variety of endeavors, from theater festivals to podcasts. Version One is currently up and accepting new users.",
                   "https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/assets/yollerhorn.jpg",
                   "https://www.yollerhorn.com"
+               ),
+      new Project("Sensational",
+                  "\"The Superpowered RPG where Empathy Matters,\" Sensational is a tabletop game like Dungeons & Dragons or World of Darkness, where you play superpowered teens who can only access their abilities through a specific emotion. Following a successful Kickstarter, the game was released just before Christmas, 2017.",
+                  "sensational.png",
+                  ""
+               ),
+      new Project("MedLever",
+                  "MedLever provides apps to simplify the tasks associated with delivering high quality cancer care and reducing administrative and clinical burdens associated with today’s complex and siloed clinical systems. MedLever offers a streamlined platform, enabling you to keep your current oncology software solution and gain improved, easy access to clinical information.",
+                  "medlever.png",
+                  "http://www.medlever.com"
                )
 ]
 
@@ -29,11 +39,8 @@ export class ProjectsPage extends React.Component {
                               />)
        return  <div
                   className="page">
-                  <ProjectBlock 
-                     title={"Yollerhorn"} 
-                     imageUrl={"https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/assets/yollerhorn.jpg"}
-                     description={""}
-                     link={"https://www.yollerhorn.com"} />
+                  <h3>Projects</h3>
+                  {projects}
                </div>;
    }
 }
