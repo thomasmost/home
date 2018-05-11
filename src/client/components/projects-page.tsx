@@ -8,7 +8,7 @@ class Project {
 
 const Projects: Project[] = [
       new Project("Yollerhorn",
-                  "Yollerhorn is a tool for creators to promote their work and grow their resume in a single unified space. Our goal is to build a robust app that brings artists and fans together, while serving the individual needs of a wide variety of endeavors, from theater festivals to podcasts. Version One is currently up and accepting new users.",
+                  "Yollerhorn is a tool for creators to promote their work and grow their resume in a single unified space. Our goal is to build a robust app that brings artists and fans together, while serving the individual needs of a wide variety of endeavors, from theater festivals to podcasts. Currently on Version Two.",
                   "https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/assets/yollerhorn.jpg",
                   "https://www.yollerhorn.com"
                ),

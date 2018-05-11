@@ -3,6 +3,8 @@ import * as React from "react";
 import { TcmFooter } from "./components/tcm-footer";
 import { Link } from "react-router-dom";
 
+import { Navigation } from "./components/nav"
+
 export class App extends React.Component {
    constructor (props: {children: any})
    {
@@ -18,16 +20,13 @@ export class App extends React.Component {
                   <div className="page-container">
                      {this.props.children}
                   </div>
-                  <div className="nav-wrapper">
-                     <Link to="/about">About</Link>
-                     <Link to="/projects">Projects</Link>
-                     <Link to="/gallery">Unfettered Narcissism</Link>
+                  <div>
+                     <Navigation />
                   </div>
                   <div className="img-wrapper">
                      <img src="./img2.png" />
                   </div>
                </div>
-               <TcmFooter />
          </div>
       )
    }

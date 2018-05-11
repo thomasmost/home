@@ -6,7 +6,7 @@
    @include grid-media($grid-1024) {
       @include grid-column(12 of 12);
    }
-   margin-top: 2em;
+   margin-bottom: 2em;
    .project-header {
       @include grid-column (12 of 12);
       // @include grid-media($grid-512) {
