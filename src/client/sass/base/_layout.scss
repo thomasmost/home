@@ -1,0 +1,112 @@
+
+$grid-base: (
+   columns: 12,
+   gutter: 0px,
+   media: 0px,
+ );
+ $grid-512: (
+   columns: 12,
+   gutter: 0px,
+   media: 512px,
+ );
+ $grid-768: (
+   columns: 12,
+   gutter: 0px,
+   media: 768px,
+ );
+ $grid-800: (
+   columns: 12,
+   gutter: 0px,
+   media: 800px,
+ );
+ $grid-1024: (
+   columns: 12,
+   gutter: 0px,
+   media: 1024px,
+ );
+
+
+ html {
+   height: 100%;
+   body {
+      height: 100%;
+      position: relative;
+      div#bg {
+         // background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAFdklEQVRIiUWWzW8cxxHFf6+652M/uCQtmbIkO3YcQ4ATBDkF+f8R5B4giJE4DhTDsSxLFilyObuzM91VOQzt9KUPhcKrV1Wo95RXLwIPLDUEiXCQJYQBYGaAQFo+/v8CkBmBYwTIgUpEgIHCIRzJl1yzJSuETARONiUcx6zFwwAnWYdMuDtYxn1JMuUH2AqACMIdWQIFtVRkWuI1CAnFzyQqUQooEVQSwqOSQVju8BrIhKxdMBBSC75UHQHuQsrIOrwWUhZGJcIhRNtkoFJ9IpiBQClDOCkbk59IOBGVaS7IRCYCSShnzBoitHB0IRpkPQqBZiQn3H9hHQFBQ06iziOWM8GMvKIkqo94KdQIyuxgQWEi54yUCYK89FKA8If5g8hNj4fhFZqmJTc98+S4BREnctPSpo46H5lrwZqO4gVTxqyjzCOyjOQoi4wQlcpELRNBgERud4/I3ZacVtTjkXkacYzc9NQa5D4Ir+z3ha4/o20T06nFa6ZKwIxZhcYIBGoRKxqt6dZG1kyKyna7xggOhz3H45HhcEc0Rt598gIpUQ4DuV2z9socI6fixCRWm54nV0949OgZ33/7hh9efouZocaZOaJe9GdnKLdM1ejWG7quI/dO1xZ2VHoqhjPc3XEcD6y25/Tn50QL+XD3jqbbMB4Hck5szz/kk48/hTpBSaxXW54/f0rbr9i7sfn8GZd9UO9u+eaf3/D841/R7p5wVAt9gzbG+rzj7b/+RjseePr8I453t7z54RX762vcZ2qcmE4TcT+Th3evUV6Rzi9xEz/d3eBvGn73+y/YbVe8en3Ht2/vCe3xXUO9vGT72VPOUkd8+Bvm717z/tUbtOlY71p6Ncy3R9aHA2k+weGe//77Jbf3e8bjgGJiLiPVKyZD6cmfwueJ/MEzbHuFjyeUNvTbDe26QZGZj0G3aujWHe/vJ+xsx+7Zx1xdXPD265cM//kH5eY1oZnGxPkHZ3z65a8ZypF2t+J0fc3f//wXqBOhStuKMlVqCWRP/hiYsHaDdleQMqEeRUN0W1RnNE+UYSJ1a9J6RUWYKrRBu+7pUqbe3bDpjd16zf0wMB1uGaPy0W+/4PHjC17+9SuGr7/icHdDzhBeiajILv8QdC1qVqjtkWWiBOyuoNnQXDzC+o7pzTUpGbU4QiAnYoI6YilI/RmrbkWKE7fff8d8v8es4l6h79leXqA6MQ03+OmIykjMM1k+wyyiLIcnVFBqiOsf4TBQP/+S0n1G83hH3P6E9WuiFnQc4DQQ80g9DtRmzXx2hZcB9jc0FlALUSvd7jHzuMenETW2dBfHS0V58yIst6AE63O0PaMeJtjvISpab9HZJba7wG/eQUD68CkM7/HhjiAhIMq0nN5utdz94ZY4DtD16OKM1HfE6YifDigedIFKtgC8oiw03iMC5gqtESXQsIdhT71+jQhUfdGKrsGSLd1oemgb/P4d3A/QrcGEYiamQhoTZiJyRt7iZcSSiApZOVASEPhpQNOINR00LSGHtCyMpgHLLZhgfI9pR1CJMoLPqGkW+SWwOuLTTLQtKQPjAVlFTSLUYXlDcCAUZCVhFhBOJC0sqcQ8LoIrQ9mQGQoRGJQRv5+x1YpkCZ9OxHQkxhPWNBjgAsNQWZbVjxOaE2gCZUwOJrIQuBMR5CYTzoPeG2Zp0SnACZTAZL/M27wAD2OgYhk8ZuqpkExQfNmjtNgIRcXnG/CCUo+6FdlscTv24HWUQIiIBVaAezzEC2EVDFKTCS9EnZHBYqVA7ihAVVgWyBaj4gFTQRJhq4XoPJCVgoiliAUUJGEyvDoYWDYIER6LUbOEvPyi5CZBGNUrKRsRQcRMWEIySELxs/pXRAc5kO35H4wVGoBNmgTAAAAAAElFTkSuQmCC');
+         // background-position: center center;
+         // background-size: cover;
+         // display: block;
+         // height: 100%;
+         // width: 100%;
+         // transform: translateZ(0);
+         // position: fixed;
+         // top: 0;
+         // left: 0;
+         // z-index: -1;
+         // &.bg-loaded {
+         //    //@include animation(sharpen .5s both);
+         //    //background-image: url("../assets/deepspace.jpg");
+         // }
+      }
+      
+      div#app {
+         @include grid-container;
+         // box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+         width: 96%;
+         // max-width: 1024px;
+         min-width: 412px;
+         margin: auto;
+         padding-top: 1.6em;
+      }
+   }
+} 
+
+#app {
+   
+   .page-container {
+      @include grid-media($grid-base)
+      {
+         @include grid-column(12 of 12);
+      }
+      @include grid-media($grid-1024)
+      {
+         @include grid-column(6 of 12);
+      }
+   }
+   
+   .img-wrapper {
+      img {
+         position: fixed;
+         bottom: 0;
+         right: 0;
+         display: none;
+         @include grid-column(6 of 12);
+         @include grid-media($grid-1024)
+         {
+            display: block;
+         }
+      }
+   }
+
+   
+   .nav-wrapper {
+      position: fixed;
+      bottom: 0;
+      left:0;
+      padding: 20px 0;
+      padding-left: 2.2%;
+      background: white;
+      a {
+         display: inline-block;
+         margin-right: 40px;
+      }
+      @include grid-media($grid-base)
+      {
+         @include grid-column(12 of 12);
+      }
+      @include grid-media($grid-1024)
+      {
+         @include grid-column(6 of 12);
+      }
+   }
+}

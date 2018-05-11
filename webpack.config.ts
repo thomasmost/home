@@ -26,6 +26,11 @@ module.exports = {
   },
   mode: "development",
   plugins: [
+   new BrowserSyncPlugin({
+       host: 'localhost',
+       port: 4000,
+       proxy: 'http://localhost:5000'
+     }),
     new ProgressBarPlugin(),
     extractSass,
     new HtmlWebpackPlugin({
@@ -33,13 +38,6 @@ module.exports = {
       inject: "body",
       hash: true,
       template: "src/index.html"
-    }),
-    new BrowserSyncPlugin({
-      // browse to http://localhost:3000/ during development, 
-      // ./public directory is being served 
-      host: "localhost",
-      port: 5000,
-      server: { baseDir: ["public"] }
     }),
     new CopyWebpackPlugin([
        { from: "src/static" }

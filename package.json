@@ -74,6 +74,7 @@
     "react-geosuggest": "^2.7.0",
     "react-native": "0.50.1",
     "react-navigation": "1.0.0-beta.19",
+    "react-photo-gallery": "^6.0.25",
     "react-redux": "5.0.6",
     "react-router": "4.2.0",
     "react-router-dom": "4.2.2",

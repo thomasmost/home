@@ -15,6 +15,8 @@ import { Route, Router, Switch } from "react-router";
 import { App } from "./client/app";
 import { LandingPage } from "./client/components/landing-page";
 import { AboutPage } from "./client/components/about-page";
+import { ModelingPage } from "./client/components/modeling-page";
+import { ProjectsPage } from "./client/components/projects-page";
 
 // SASS
 require("./client/sass/index");
@@ -56,6 +58,8 @@ abstract class HaltAnd
                   <Route exact path="/" component={ LandingPage } />
                   {/* <Route path="contact" component={ ContactPage } /> */}
                   <Route path="/about" component={ AboutPage } />
+                  <Route path="/projects" component={ ProjectsPage } />
+                  <Route path="/gallery" component={ ModelingPage } />
                   {/* <Route path="users" component={ Users }>
                   <Route path="/user/:username" component={ User }/>
                </Route>*/}

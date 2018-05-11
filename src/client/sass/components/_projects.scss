@@ -1,0 +1,33 @@
+.project {
+   @include grid-column(6 of 12);
+   @include grid-media($grid-512) {
+      @include grid-column(4 of 12);
+   }
+   @include grid-media($grid-1024) {
+      @include grid-column(3 of 12);
+   }
+   margin-bottom: 2em;
+   .project-image {
+      @include grid-column (12 of 12);
+   }
+   .project-title {
+      @include grid-column (12 of 12);
+      text-transform: uppercase;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 1.5em;
+
+   }
+   .project-desc {
+      @include grid-column (12 of 12);
+      //font-family: 'Port Lligat Slab', serif;
+      line-height: modular-scale(1);
+      margin-top: 1em;
+   }
+   a {
+      color: black;
+      &:hover {
+         color: darken(#725037,0);
+      }
+   }
+}
