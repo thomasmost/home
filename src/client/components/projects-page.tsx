@@ -3,7 +3,7 @@ import Gallery from 'react-photo-gallery';
 import { ProjectBlock } from "../projects/project-block";
 
 class Project {
-   constructor(public title: string, public description: string, public imageUrl: string, public link?: string) {}
+   constructor(public title: string, public description: string, public imageUrl: string, public link?: string, public localLink: boolean = false) {}
 }
 
 const Projects: Project[] = [
@@ -15,7 +15,8 @@ const Projects: Project[] = [
       new Project("Sensational",
                   "\"The Superpowered RPG where Empathy Matters,\" Sensational is a tabletop game like Dungeons & Dragons or World of Darkness, where you play superpowered teens who can only access their abilities through a specific emotion. Following a successful Kickstarter, the game was released just before Christmas, 2017.",
                   "sensational.png",
-                  ""
+                  "sensational",
+                  true
                ),
       new Project("MedLever",
                   "MedLever provides apps to simplify the tasks associated with delivering high quality cancer care and reducing administrative and clinical burdens associated with today’s complex and siloed clinical systems. The company delivers interoperable solutions which grant better access to existing data systems.",
@@ -35,7 +36,8 @@ export class ProjectsPage extends React.Component {
                                  title={x.title}
                                  imageUrl={x.imageUrl}
                                  description={x.description}
-                                 link={x.link}      
+                                 link={x.link}
+                                 localLink={x.localLink}    
                               />)
        return  <div
                   className="page">
