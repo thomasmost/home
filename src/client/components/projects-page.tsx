@@ -18,7 +18,7 @@ const Projects: Project[] = [
                   ""
                ),
       new Project("MedLever",
-                  "MedLever provides apps to simplify the tasks associated with delivering high quality cancer care and reducing administrative and clinical burdens associated with today’s complex and siloed clinical systems. MedLever offers a streamlined platform, enabling you to keep your current oncology software solution and gain improved, easy access to clinical information.",
+                  "MedLever provides apps to simplify the tasks associated with delivering high quality cancer care and reducing administrative and clinical burdens associated with today’s complex and siloed clinical systems. The company delivers interoperable solutions which grant better access to existing data systems.",
                   "medlever.png",
                   "http://www.medlever.com"
                )
@@ -40,7 +40,9 @@ export class ProjectsPage extends React.Component {
        return  <div
                   className="page">
                   <h3>Projects</h3>
-                  {projects}
+                  <div className="projects-container">
+                     {projects}
+                  </div>
                </div>;
    }
 }

@@ -23,6 +23,9 @@ app.get("*", function response(req, res) {
    res.sendFile(path.join(__dirname, "../public/index.html"));
  });
 
+app.get("/legacy-site", function response(req, res) {
+   res.sendFile(path.join(__dirname, "../public/legacy/index.html"));
+ });
 
 app.listen(app.get("port"), function() {
   console.log("tcm-home is running on port", app.get("port"));

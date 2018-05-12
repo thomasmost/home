@@ -20,9 +20,7 @@ export class App extends React.Component {
                   <div className="page-container">
                      {this.props.children}
                   </div>
-                  <div>
-                     <Navigation />
-                  </div>
+                  <Navigation />
                   <div className="img-wrapper">
                      <img src="./img2.png" />
                   </div>
