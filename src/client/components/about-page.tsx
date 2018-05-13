@@ -17,7 +17,7 @@ export class AboutPage extends React.Component {
                         He is passionate about immersive theater, and has appeared in Quantum Theatre's production of <em>Tamara</em>, 
                         as well as The Speakeasy Society's <em>Kansas Collection</em> and <em>Johnny Cycle</em>.
                      </p>
-                     <p>
+                     <p className="last-element">
                         He co-founded the event networking site Yollerhorn, and is currently developing a production of <em>Three Sisters</em> with Rebis Immersive.
                      </p>
                   </div>

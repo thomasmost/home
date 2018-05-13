@@ -8,7 +8,7 @@ export class LandingPage extends React.Component {
    render() {
       return   <div
                   className="page">
-                  <p className="landing-page-quote">"Something pithy about empty space."</p>
+                  <p className="landing-page-quote last-element">"Something pithy about empty space."</p>
                </div>;
    }
 }
