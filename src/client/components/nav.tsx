@@ -16,6 +16,6 @@ export const Navigation = () =>  <div className="nav-wrapper">
             </a>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>
-            <Link to="/gallery">Unfettered Narcissism</Link>
+            {false && <Link to="/gallery">Unfettered Narcissism</Link>}
 
          </div>
