@@ -38,11 +38,12 @@ export class ProjectsPage extends React.Component {
    render() {
       let projects = Projects
                      .map(x => <ProjectBlock
+                                 key={x.title}
                                  title={x.title}
                                  imageUrl={x.imageUrl}
                                  description={x.description}
                                  link={x.link}
-                                 localLink={x.localLink}    
+                                 localLink={x.localLink}
                               />)
        return  <div
                   className="page">
