@@ -8,9 +8,14 @@ class Project {
 
 const Projects: Project[] = [
       new Project("Yollerhorn",
-                  "Yollerhorn is a tool for creators to promote their work and grow their resume in a single unified space. Our goal is to build a robust app that brings artists and fans together, while serving the individual needs of a wide variety of endeavors, from theater festivals to podcasts. Currently on Version Two.",
+                  "Yollerhorn is a tool for creators to promote their work and grow their resume in a single unified space. Our goal is to build a robust app that brings artists and fans together, while serving the individual needs of a wide variety of endeavors, from theater festivals to podcasts. Yollerhorn is currently on Version Two.",
                   "https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/assets/yollerhorn.jpg",
                   "https://www.yollerhorn.com"
+               ),
+      new Project("Rebis Immersive",
+                  "Rebis Immersive is a new theatre company dedicated to narrative driven immersive experiences. Founded with Katya Stepanov and Jesse Carrey-Beaver, workshops of the debut production of Three Sisters will begin this year.",
+                  "https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/assets/rebis.png",
+                  "http://www.rebisimmersive.com"
                ),
       new Project("Sensational",
                   "\"The Superpowered RPG where Empathy Matters,\" Sensational is a tabletop game like Dungeons & Dragons or World of Darkness, where you play superpowered teens who can only access their abilities through a specific emotion. Following a successful Kickstarter, the game was released just before Christmas, 2017.",

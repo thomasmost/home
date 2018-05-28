@@ -14,8 +14,15 @@ export const Navigation = () =>  <div className="nav-wrapper">
             <a href="https://www.twitter.com/thomascmost" target="_blank">
                <ReactSVG path="twitter.svg"/>
             </a>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
+            <Link to="/about">
+               <ReactSVG path="info.svg"/>
+            </Link>
+            <Link to="/projects">
+               <ReactSVG path="projects.svg"/>
+            </Link>
+            <Link to="/more">
+               <ReactSVG path="arrow.svg"/>
+            </Link>
             {false && <Link to="/gallery">Unfettered Narcissism</Link>}
 
-         </div>
+         </div>;

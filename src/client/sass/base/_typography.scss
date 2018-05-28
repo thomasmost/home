@@ -29,6 +29,7 @@ h1 {
    margin-bottom: .5em;
    color: black;
    text-decoration: none;
+   font-weight: 400 !important;
    @include grid-media($grid-512)
    {
       font-size: modular-scale(2);
@@ -49,7 +50,18 @@ h3 {
 }
 
 a {
+   font-weight: 600;
+   color: black;
    text-decoration: none;
+   &:hover {
+      color: darken(#725037,0);
+   }
+   &:visited {
+      color: black;
+      &:hover {
+         color: darken(#725037,0);
+      }
+   }
 }
 
 .nav-wrapper a {

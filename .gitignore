@@ -23,3 +23,5 @@ public/fonts/**/*
 **/*.js.map
 **/*.jsx
 **/*.jsx.map
+
+!src/static/l-bundle.js

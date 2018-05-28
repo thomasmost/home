@@ -18,6 +18,7 @@ import { AboutPage } from "./client/components/about-page";
 import { ModelingPage } from "./client/components/modeling-page";
 import { ProjectsPage } from "./client/components/projects-page";
 import { SensationalPage, SensationalDownloadPage } from "./client/components/sensational-page";
+import { MorePage } from "./client/components/more-page";
 
 // SASS
 require("./client/sass/index");
@@ -63,6 +64,7 @@ abstract class HaltAnd
                   <Route path="/sensational" component={ SensationalPage } />
                   <Route path="/sensational-download" component={ SensationalDownloadPage } />
                   <Route path="/gallery" component={ ModelingPage } />
+                  <Route path="/more" component={ MorePage } />
                   {/* <Route path="users" component={ Users }>
                   <Route path="/user/:username" component={ User }/>
                </Route>*/}
