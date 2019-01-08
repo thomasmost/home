@@ -21,7 +21,7 @@ export class AboutPage extends React.Component {
                         He co-founded the event networking site Yollerhorn, and is currently developing a production of <em>Three Sisters</em> with Rebis Immersive.
                      </p>
                      <p className="last-element">
-                        Say hi — <a className="email-link" href="mailto:thomascmost@gmail.com">thomascmost@gmail.com</a>
+                        Say hi — <a className="email-link" href="mailto:thomas@epicatomic.com">thomas@epicatomic.com</a>
                      </p>
                   </div>
                </div>;

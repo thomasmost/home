@@ -25105,7 +25105,7 @@ var AboutPage = (function () {
                 t('p', null, 'This site was built on NodeJS, Express, and InfernoJS using TypeScript, SASS, and Webpack.'),
                 t('p', null, [
                     'I published a starter-kit based on the tools and architecture I landed on for this project. You can check that out ',
-                    t('a', { href: 'https://github.com/thomascmost/express-ts-sass-starter', target: '_blank' }, 'here on my GitHub'),
+                    t('a', { href: 'https://github.com/thomasmost/express-ts-sass-starter', target: '_blank' }, 'here on my GitHub'),
                     ' if you\'re interested.'
                 ]),
                 t('p', null, 'I\'d like to extend a catch-all thank you to the development community, without whom I would be in a near-continuous state of despair.')
@@ -25131,7 +25131,7 @@ var ProjectsPage = (function () {
             t('div', { className: 'content-block' }, [
                 new projectBlock('Yollerhorn', '../img/yollerhorn.jpg', 'Yollerhorn is a tool for creators to promote their work and grow their resume in a single unified space. Our goal is to build a robust app that brings artists and fans together, while serving the individual needs of a wide variety of endeavors, from theater festivals to podcasts. Version One is currently up and accepting new users.', 'https://www.yollerhorn.com'),
                 new projectBlock('Sensational', '../img/sensational.png', '"The Superpowered RPG where Empathy Matters," Sensational is a tabletop game like Dungeons & Dragons or World of Darkness, where you play superpowered teens who can only access their abilities through a specific emotion. Following a successful Kickstarter, the game is now scheduled for release in September, 2017.', 'https://www.kickstarter.com/projects/tcmoore/sensational-a-superpowered-rpg-where-empathy-matte'),
-                new projectBlock('Express-TS-Sass-Starter', '../img/ets-starter.jpg', 'A framework-agnostic, ready-to-deploy starter-pack for building NodeJS applications with a modern development stack.', 'https://github.com/thomascmost/express-ts-sass-starter'),
+                new projectBlock('Express-TS-Sass-Starter', '../img/ets-starter.jpg', 'A framework-agnostic, ready-to-deploy starter-pack for building NodeJS applications with a modern development stack.', 'https://github.com/thomasmost/express-ts-sass-starter'),
                 new projectBlock('Arcana for a New Age', '../img/afana.jpg', 'An original deck of cards inspired by Tarot, designed for both fortunetelling and gameplay in a new twist on trick-taking games. AfaNA is still very much a work in progress, but I plan on releasing the full deck sometime in 2017.'),
                 new projectBlock('MicroMassive', '../img/micromassive.png', '"Microeconomic simulations on a massive scale." MicroMassive is a WIP but is intended to be an accessible sandbox for simulating thousands of individual transactions in real time and observing how those behaviors change with variables.'),
                 new projectBlock('???', '../img/ttas-preview.jpg', 'Coming Soon.')
