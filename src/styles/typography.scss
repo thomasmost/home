@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+@import './colors.scss';
+
+$titleFont: 'Righteous';
+$bodyFont: 'Roboto', sans-serif;
+
+* {
+  font-family: $bodyFont;
+}
+
+a {
+  font-family: $bodyFont;
+  color: $linkColor;
+  text-decoration: none;
+  .material-icons {
+    margin-right: 10px;
+    line-height: 1.1em;
+  }
+  .link-text {
+  }
+}
+
+main {
+  h1 {
+    font-family: $titleFont;
+  }
+  h2 {
+    font-family: $bodyFont;
+  }
+  article {
+    font-weight: 400;
+  }
+  a {
+    color: $razz;
+  }
+}
+
+footer {
+  a {
+    color: $razz;
+  }
+}

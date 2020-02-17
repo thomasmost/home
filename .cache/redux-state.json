@@ -1,0 +1,2241 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/thomas/home/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/thomas/home/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a4e4956516e6ddd7242d81acaaebd77b",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8fd7afd693256b38f532eaa5b2ce6330",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "252c233b268eba8fb28ac1ec070ab8dc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "723c8faf4eff63929071962fa54dea3d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bbb63cd15fc4177b556d812a21ead409",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "81e40d39b0e52c3e878277ecf2fdf457",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8867923b006627d5c8f70a4b68b737e7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6baed434-a608-5e80-ba69-fa94fef95ec5": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-typescript",
+      "id": "6baed434-a608-5e80-ba69-fa94fef95ec5",
+      "name": "gatsby-plugin-typescript",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "resolvableExtensions",
+        "onCreateBabelConfig",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-typescript",
+      "packageJson": {
+        "name": "gatsby-plugin-typescript",
+        "description": "Adds TypeScript support to Gatsby",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typescript"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/preset-typescript",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-remove-graphql-queries",
+            "version": "^2.5.4"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ae11f934078539403efef99c3fc0f733",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8861c9dd-f431-5228-949d-d7d46d064e5b": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-sass",
+      "id": "8861c9dd-f431-5228-949d-d7d46d064e5b",
+      "name": "gatsby-plugin-sass",
+      "version": "2.1.28",
+      "pluginOptions": {
+        "plugins": [],
+        "includePaths": [
+          "/Users/thomas/home/node_modules/bourbon-neat/core"
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.1.28",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.7.6"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.3.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.7.5"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.7.5"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.2.16"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fa6a1040bac92b610af1acd7d09401bd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f259fe4b63b0d0cee00b309cbbca7457",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3f76f20b-0e7f-51f9-b13e-9e8d409e266f": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-google-fonts",
+      "id": "3f76f20b-0e7f-51f9-b13e-9e8d409e266f",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "material icons"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": {
+          "name": "Didier Franc",
+          "email": "dev@didierfranc.com"
+        },
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "11d5bf9625efd3d2406379bd3f545f34",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6cd123de-686e-5721-bf7d-3d2881612e5c": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-source-filesystem",
+      "id": "6cd123de-686e-5721-bf7d-3d2881612e5c",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/thomas/home/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "43f4c023546e1c48ef4eb75970506f82",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "35c9d1ece6115865c2f3a46d702e8947",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c74a1ce14b46a77ae8b363ab3752c14d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f5688f7d-32f0-5e04-808c-2ecc5e36defb": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-manifest",
+      "id": "f5688f7d-32f0-5e04-808c-2ecc5e36defb",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Rooftops",
+        "short_name": "rooftops",
+        "start_url": "/",
+        "background_color": "#000000",
+        "theme_color": "#000000",
+        "display": "minimal-ui",
+        "icon": "src/ico/favicon-96x96.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fca5e4552836e7599440b1e2b2426b24",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/thomas/home",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "024a5904d9109d3b62face58d8eff343",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home",
+      "packageJson": {
+        "name": "rooftops",
+        "description": "The world is watching...",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Thomas Moore <thomas@epicatomic.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@types/react-helmet",
+            "version": "^5.0.8"
+          },
+          {
+            "name": "bourbon",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "bourbon-neat",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.111"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.1.28"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-typescript",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.13.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-svg",
+            "version": "^11.0.10"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^8.0.2"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a420b11aa465a8894c20a794e9cdc7d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5cd561c6-f229-5058-900e-5cdca385a641": {
+      "resolve": "/Users/thomas/home/node_modules/gatsby-plugin-page-creator",
+      "id": "5cd561c6-f229-5058-900e-5cdca385a641",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/thomas/home/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomas/home/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "027e80f897d6e46b676040ed2cfa0fc1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Thomas Constantine Moore",
+        "description": "The world is watching...",
+        "author": "@thomascmost"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-02-17T19:09:09.278Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "177f6534b627e9ea5296c6f82091b407",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bf5f8f4b-8513-5cf7-b55d-fab7f7bca3d3": {
+      "id": "bf5f8f4b-8513-5cf7-b55d-fab7f7bca3d3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "38507248ead4641bdddd9329740749d0",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 608,
+      "prettySize": "608 B",
+      "modifiedTime": "2020-02-17T19:07:40.285Z",
+      "accessTime": "2020-02-17T19:08:03.693Z",
+      "changeTime": "2020-02-17T19:07:40.285Z",
+      "birthTime": "2020-01-19T22:53:47.863Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 19,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605194136,
+      "blocks": 0,
+      "atimeMs": 1581966483692.5042,
+      "mtimeMs": 1581966460284.7112,
+      "ctimeMs": 1581966460284.7112,
+      "birthtimeMs": 1579474427863.437,
+      "atime": "2020-02-17T19:08:03.693Z",
+      "mtime": "2020-02-17T19:07:40.285Z",
+      "ctime": "2020-02-17T19:07:40.285Z",
+      "birthtime": "2020-01-19T22:53:47.863Z"
+    },
+    "ab68ce6a-d596-57f3-921d-320a4a4cb7c0": {
+      "id": "ab68ce6a-d596-57f3-921d-320a4a4cb7c0",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fcc9f9e58926943a19f6fb2737189982",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/arrow.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/arrow.svg",
+      "relativePath": "arrow.svg",
+      "extension": "svg",
+      "size": 309,
+      "prettySize": "309 B",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:31.935Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.365Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "arrow.svg",
+      "ext": ".svg",
+      "name": "arrow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251578,
+      "blocks": 8,
+      "atimeMs": 1581966091934.7483,
+      "mtimeMs": 1581966090367.6594,
+      "ctimeMs": 1581966090370.843,
+      "birthtimeMs": 1581966090365.4229,
+      "atime": "2020-02-17T19:01:31.935Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.365Z"
+    },
+    "cdd03c66-5182-5b6d-84bd-309fa5ddb11a": {
+      "id": "cdd03c66-5182-5b6d-84bd-309fa5ddb11a",
+      "children": [
+        "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "182b5b30074b8dccd2d0502cad425aba",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/eth-green-qr.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/eth-green-qr.png",
+      "relativePath": "eth-green-qr.png",
+      "extension": "png",
+      "size": 1500,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:31.439Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.365Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "eth-green-qr.png",
+      "ext": ".png",
+      "name": "eth-green-qr",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251577,
+      "blocks": 8,
+      "atimeMs": 1581966091439.0574,
+      "mtimeMs": 1581966090367.6025,
+      "ctimeMs": 1581966090370.8281,
+      "birthtimeMs": 1581966090365.3313,
+      "atime": "2020-02-17T19:01:31.439Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.365Z"
+    },
+    "056cb773-a06a-5c85-9d4f-8a148009b1ad": {
+      "id": "056cb773-a06a-5c85-9d4f-8a148009b1ad",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "65eab40bf1bcd5c82c6d9e02abea5ed3",
+        "type": "File",
+        "mediaType": "text/plain",
+        "description": "File \"src/images/forceexist.txt\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/forceexist.txt",
+      "relativePath": "forceexist.txt",
+      "extension": "txt",
+      "size": 4,
+      "prettySize": "4 B",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:32.635Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.365Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "forceexist.txt",
+      "ext": ".txt",
+      "name": "forceexist",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251579,
+      "blocks": 8,
+      "atimeMs": 1581966092634.922,
+      "mtimeMs": 1581966090367.7705,
+      "ctimeMs": 1581966090370.9333,
+      "birthtimeMs": 1581966090365.4873,
+      "atime": "2020-02-17T19:01:32.635Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.365Z"
+    },
+    "2dfe758a-776d-5c69-b517-b9efc55151c1": {
+      "id": "2dfe758a-776d-5c69-b517-b9efc55151c1",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "91d5f66fa4c9661c1028823a4b12e7de",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/info.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/info.svg",
+      "relativePath": "info.svg",
+      "extension": "svg",
+      "size": 463,
+      "prettySize": "463 B",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:32.693Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "info.svg",
+      "ext": ".svg",
+      "name": "info",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251582,
+      "blocks": 8,
+      "atimeMs": 1581966092693.046,
+      "mtimeMs": 1581966090367.8298,
+      "ctimeMs": 1581966090370.9617,
+      "birthtimeMs": 1581966090365.6846,
+      "atime": "2020-02-17T19:01:32.693Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "c3724539-cecf-5a0c-825e-37c179767811": {
+      "id": "c3724539-cecf-5a0c-825e-37c179767811",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fca2cd408251e2e2b708cb9f87be433c",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/instagram.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/instagram.svg",
+      "relativePath": "instagram.svg",
+      "extension": "svg",
+      "size": 1726,
+      "prettySize": "1.73 kB",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:31.934Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "instagram.svg",
+      "ext": ".svg",
+      "name": "instagram",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251583,
+      "blocks": 8,
+      "atimeMs": 1581966091934.2776,
+      "mtimeMs": 1581966090368.0403,
+      "ctimeMs": 1581966090371.2053,
+      "birthtimeMs": 1581966090365.7576,
+      "atime": "2020-02-17T19:01:31.934Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "56bd42b6-0c88-5d4a-ae7e-d50d8ecbeacc": {
+      "id": "56bd42b6-0c88-5d4a-ae7e-d50d8ecbeacc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7071c2dd9bd74a291e796b8d28d86b0f",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src/images/l-app.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/l-app.css",
+      "relativePath": "l-app.css",
+      "extension": "css",
+      "size": 28115,
+      "prettySize": "28.1 kB",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:30.642Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "l-app.css",
+      "ext": ".css",
+      "name": "l-app",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251584,
+      "blocks": 56,
+      "atimeMs": 1581966090642.0625,
+      "mtimeMs": 1581966090368.1018,
+      "ctimeMs": 1581966090371.254,
+      "birthtimeMs": 1581966090365.8196,
+      "atime": "2020-02-17T19:01:30.642Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "340e2fc8-b28c-513d-8702-6f2f06942002": {
+      "id": "340e2fc8-b28c-513d-8702-6f2f06942002",
+      "children": [
+        "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "157a7e56dcb790434196d49e0d687df4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/medlever.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/medlever.png",
+      "relativePath": "medlever.png",
+      "extension": "png",
+      "size": 21046,
+      "prettySize": "21 kB",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:01:32.621Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "medlever.png",
+      "ext": ".png",
+      "name": "medlever",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251586,
+      "blocks": 48,
+      "atimeMs": 1581966092621.3196,
+      "mtimeMs": 1581966090368.9575,
+      "ctimeMs": 1581966090371.2913,
+      "birthtimeMs": 1581966090365.9268,
+      "atime": "2020-02-17T19:01:32.621Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "4526596b-ad33-527b-87e2-7b95a06d5bdd": {
+      "id": "4526596b-ad33-527b-87e2-7b95a06d5bdd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f3251af1b83f272e0e4370db4aedb2a3",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/projects.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/projects.svg",
+      "relativePath": "projects.svg",
+      "extension": "svg",
+      "size": 1185,
+      "prettySize": "1.19 kB",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:01:32.628Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "projects.svg",
+      "ext": ".svg",
+      "name": "projects",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251587,
+      "blocks": 8,
+      "atimeMs": 1581966092627.5342,
+      "mtimeMs": 1581966090367.983,
+      "ctimeMs": 1581966090371.3352,
+      "birthtimeMs": 1581966090365.9856,
+      "atime": "2020-02-17T19:01:32.628Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9": {
+      "id": "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9",
+      "children": [],
+      "parent": "cdd03c66-5182-5b6d-84bd-309fa5ddb11a",
+      "internal": {
+        "contentDigest": "182b5b30074b8dccd2d0502cad425aba",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4": {
+      "id": "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4",
+      "children": [],
+      "parent": "340e2fc8-b28c-513d-8702-6f2f06942002",
+      "internal": {
+        "contentDigest": "157a7e56dcb790434196d49e0d687df4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a8cf6546-a255-5e1b-9e84-cd82f3dd0771": {
+      "id": "a8cf6546-a255-5e1b-9e84-cd82f3dd0771",
+      "children": [
+        "019449d5-14e2-5323-8a4e-54af8bcc03c4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cd3ab928102b2b5605c07a77f60ccd5a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/paypal-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/paypal-logo.png",
+      "relativePath": "paypal-logo.png",
+      "extension": "png",
+      "size": 65405,
+      "prettySize": "65.4 kB",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:01:31.842Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "paypal-logo.png",
+      "ext": ".png",
+      "name": "paypal-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251588,
+      "blocks": 128,
+      "atimeMs": 1581966091841.5232,
+      "mtimeMs": 1581966090369.3464,
+      "ctimeMs": 1581966090371.445,
+      "birthtimeMs": 1581966090366.045,
+      "atime": "2020-02-17T19:01:31.842Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "52920692-a784-5a33-a8e3-42a7d1f4364d": {
+      "id": "52920692-a784-5a33-a8e3-42a7d1f4364d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7ab984696734e07106e52359e6f9fcc1",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/twitter.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/twitter.svg",
+      "relativePath": "twitter.svg",
+      "extension": "svg",
+      "size": 1146,
+      "prettySize": "1.15 kB",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:01:31.935Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "twitter.svg",
+      "ext": ".svg",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251591,
+      "blocks": 8,
+      "atimeMs": 1581966091934.5293,
+      "mtimeMs": 1581966090369.1514,
+      "ctimeMs": 1581966090371.3928,
+      "birthtimeMs": 1581966090366.1907,
+      "atime": "2020-02-17T19:01:31.935Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "bef22b26-1643-54b3-9e12-d95033590c8e": {
+      "id": "bef22b26-1643-54b3-9e12-d95033590c8e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d13ce038b933aa9984b28aca4aa7be4a",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/yollerhorn.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/yollerhorn.svg",
+      "relativePath": "yollerhorn.svg",
+      "extension": "svg",
+      "size": 662,
+      "prettySize": "662 B",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:01:31.844Z",
+      "changeTime": "2020-02-17T19:01:30.372Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "yollerhorn.svg",
+      "ext": ".svg",
+      "name": "yollerhorn",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251592,
+      "blocks": 8,
+      "atimeMs": 1581966091844.4265,
+      "mtimeMs": 1581966090369.25,
+      "ctimeMs": 1581966090371.5342,
+      "birthtimeMs": 1581966090366.213,
+      "atime": "2020-02-17T19:01:31.844Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.372Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "c72e30f2-fab3-58d6-b625-4496fa844204": {
+      "id": "c72e30f2-fab3-58d6-b625-4496fa844204",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "451e054a76ef2d39aee0446d52f52e10",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/tumblr.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/tumblr.svg",
+      "relativePath": "tumblr.svg",
+      "extension": "svg",
+      "size": 935,
+      "prettySize": "935 B",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:01:32.627Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "tumblr.svg",
+      "ext": ".svg",
+      "name": "tumblr",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251590,
+      "blocks": 8,
+      "atimeMs": 1581966092626.725,
+      "mtimeMs": 1581966090368.997,
+      "ctimeMs": 1581966090371.3674,
+      "birthtimeMs": 1581966090366.1646,
+      "atime": "2020-02-17T19:01:32.627Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "388398eb-b32a-507a-87dc-3f1540f148d7": {
+      "id": "388398eb-b32a-507a-87dc-3f1540f148d7",
+      "children": [
+        "43e34189-7d92-5aa0-ba6e-2486b684f0f9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0e3ad8c7720065d9159987683b6ebb44",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/sensational.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/sensational.png",
+      "relativePath": "sensational.png",
+      "extension": "png",
+      "size": 46731,
+      "prettySize": "46.7 kB",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:01:32.622Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "sensational.png",
+      "ext": ".png",
+      "name": "sensational",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251589,
+      "blocks": 96,
+      "atimeMs": 1581966092622.4478,
+      "mtimeMs": 1581966090369.2966,
+      "ctimeMs": 1581966090371.4197,
+      "birthtimeMs": 1581966090366.1116,
+      "atime": "2020-02-17T19:01:32.622Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "0fa05211-b5c1-5d50-96a8-f466f59c710b": {
+      "id": "0fa05211-b5c1-5d50-96a8-f466f59c710b",
+      "children": [
+        "8f691859-f128-533f-b047-c9d403ff739f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ce6e1ba297a065a872bad25be23413c8",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/ce6e1ba297a065a872bad25be23413c8.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/ce6e1ba297a065a872bad25be23413c8.jpg",
+      "relativePath": "ce6e1ba297a065a872bad25be23413c8.jpg",
+      "extension": "jpg",
+      "size": 71980,
+      "prettySize": "72 kB",
+      "modifiedTime": "2020-02-17T19:01:30.370Z",
+      "accessTime": "2020-02-17T19:01:31.846Z",
+      "changeTime": "2020-02-17T19:01:30.373Z",
+      "birthTime": "2020-02-17T19:01:30.365Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "ce6e1ba297a065a872bad25be23413c8.jpg",
+      "ext": ".jpg",
+      "name": "ce6e1ba297a065a872bad25be23413c8",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251576,
+      "blocks": 144,
+      "atimeMs": 1581966091846.3503,
+      "mtimeMs": 1581966090369.9265,
+      "ctimeMs": 1581966090372.561,
+      "birthtimeMs": 1581966090365.0298,
+      "atime": "2020-02-17T19:01:31.846Z",
+      "mtime": "2020-02-17T19:01:30.370Z",
+      "ctime": "2020-02-17T19:01:30.373Z",
+      "birthtime": "2020-02-17T19:01:30.365Z"
+    },
+    "019449d5-14e2-5323-8a4e-54af8bcc03c4": {
+      "id": "019449d5-14e2-5323-8a4e-54af8bcc03c4",
+      "children": [],
+      "parent": "a8cf6546-a255-5e1b-9e84-cd82f3dd0771",
+      "internal": {
+        "contentDigest": "cd3ab928102b2b5605c07a77f60ccd5a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "43e34189-7d92-5aa0-ba6e-2486b684f0f9": {
+      "id": "43e34189-7d92-5aa0-ba6e-2486b684f0f9",
+      "children": [],
+      "parent": "388398eb-b32a-507a-87dc-3f1540f148d7",
+      "internal": {
+        "contentDigest": "0e3ad8c7720065d9159987683b6ebb44",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8f691859-f128-533f-b047-c9d403ff739f": {
+      "id": "8f691859-f128-533f-b047-c9d403ff739f",
+      "children": [],
+      "parent": "0fa05211-b5c1-5d50-96a8-f466f59c710b",
+      "internal": {
+        "contentDigest": "ce6e1ba297a065a872bad25be23413c8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9f3d9bfe-536d-558b-9388-c5413c8a3eee": {
+      "id": "9f3d9bfe-536d-558b-9388-c5413c8a3eee",
+      "children": [
+        "96ef9705-902a-50fd-b9d0-7f7622a67d98"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cff72435de9bdd21e83627e657f1edfd",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/img.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/img.png",
+      "relativePath": "img.png",
+      "extension": "png",
+      "size": 376820,
+      "prettySize": "377 kB",
+      "modifiedTime": "2020-02-17T19:01:30.516Z",
+      "accessTime": "2020-02-17T19:01:31.842Z",
+      "changeTime": "2020-02-17T19:01:30.521Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "img.png",
+      "ext": ".png",
+      "name": "img",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251580,
+      "blocks": 736,
+      "atimeMs": 1581966091841.862,
+      "mtimeMs": 1581966090515.9126,
+      "ctimeMs": 1581966090520.9775,
+      "birthtimeMs": 1581966090365.5918,
+      "atime": "2020-02-17T19:01:31.842Z",
+      "mtime": "2020-02-17T19:01:30.516Z",
+      "ctime": "2020-02-17T19:01:30.521Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "4943ea41-b9c1-532a-a27d-0bc0936cee7f": {
+      "id": "4943ea41-b9c1-532a-a27d-0bc0936cee7f",
+      "children": [
+        "f3664937-1d57-54ec-abe4-97b967c55f47"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4704f1387cdc7502c689e854498a49b4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/headshot.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/headshot.png",
+      "relativePath": "headshot.png",
+      "extension": "png",
+      "size": 513262,
+      "prettySize": "513 kB",
+      "modifiedTime": "2020-02-17T19:07:40.285Z",
+      "accessTime": "2020-02-17T19:07:41.619Z",
+      "changeTime": "2020-02-17T19:07:40.286Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "headshot.png",
+      "ext": ".png",
+      "name": "headshot",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251581,
+      "blocks": 1008,
+      "atimeMs": 1581966461619.3467,
+      "mtimeMs": 1581966460285,
+      "ctimeMs": 1581966460285.5007,
+      "birthtimeMs": 1581966090365.6152,
+      "atime": "2020-02-17T19:07:41.619Z",
+      "mtime": "2020-02-17T19:07:40.285Z",
+      "ctime": "2020-02-17T19:07:40.286Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "96ef9705-902a-50fd-b9d0-7f7622a67d98": {
+      "id": "96ef9705-902a-50fd-b9d0-7f7622a67d98",
+      "children": [],
+      "parent": "9f3d9bfe-536d-558b-9388-c5413c8a3eee",
+      "internal": {
+        "contentDigest": "cff72435de9bdd21e83627e657f1edfd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f3664937-1d57-54ec-abe4-97b967c55f47": {
+      "id": "f3664937-1d57-54ec-abe4-97b967c55f47",
+      "children": [],
+      "parent": "4943ea41-b9c1-532a-a27d-0bc0936cee7f",
+      "internal": {
+        "contentDigest": "4704f1387cdc7502c689e854498a49b4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "755506aa-2f1e-525d-95f6-8ffb36210dfe": {
+      "id": "755506aa-2f1e-525d-95f6-8ffb36210dfe",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e863c699fb9cedda8756d91da35a90ee",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/images/l-bundle.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/l-bundle.js",
+      "relativePath": "l-bundle.js",
+      "extension": "js",
+      "size": 806443,
+      "prettySize": "806 kB",
+      "modifiedTime": "2020-02-17T19:01:30.572Z",
+      "accessTime": "2020-02-17T19:01:31.838Z",
+      "changeTime": "2020-02-17T19:01:30.580Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "l-bundle.js",
+      "ext": ".js",
+      "name": "l-bundle",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251585,
+      "blocks": 1576,
+      "atimeMs": 1581966091838.3645,
+      "mtimeMs": 1581966090572.3713,
+      "ctimeMs": 1581966090579.9163,
+      "birthtimeMs": 1581966090365.8586,
+      "atime": "2020-02-17T19:01:31.838Z",
+      "mtime": "2020-02-17T19:01:30.572Z",
+      "ctime": "2020-02-17T19:01:30.580Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/thomas/home/src/pages/404.tsx",
+      "componentChunkName": "component---src-pages-404-tsx",
+      "context": {},
+      "pluginCreator___NODE": "5cd561c6-f229-5058-900e-5cdca385a641",
+      "pluginCreatorId": "5cd561c6-f229-5058-900e-5cdca385a641",
+      "componentPath": "/Users/thomas/home/src/pages/404.tsx",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b0840d64fb97c998fd60a3d6813c8cc0",
+        "description": "5cd561c6-f229-5058-900e-5cdca385a641",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/thomas/home/src/pages/index.tsx",
+      "componentChunkName": "component---src-pages-index-tsx",
+      "context": {},
+      "pluginCreator___NODE": "5cd561c6-f229-5058-900e-5cdca385a641",
+      "pluginCreatorId": "5cd561c6-f229-5058-900e-5cdca385a641",
+      "componentPath": "/Users/thomas/home/src/pages/index.tsx",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "089c60bf4782604048493127de26476a",
+        "description": "5cd561c6-f229-5058-900e-5cdca385a641",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/thomas/home/src/pages/404.tsx",
+      "componentChunkName": "component---src-pages-404-tsx",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/thomas/home/src/pages/404.tsx",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f7b6e0ea605226d99e2c7cc72b84a51e",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "dff5907f7f782368d86b464a1eaa599f"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-tsx",
+        "sq--src-components-seo-tsx"
+      ],
+      "4943ea41-b9c1-532a-a27d-0bc0936cee7f": [
+        "sq--src-components-featured-image-tsx"
+      ],
+      "f3664937-1d57-54ec-abe4-97b967c55f47": [
+        "sq--src-components-featured-image-tsx"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-seo-tsx": 1025518380,
+    "sq--src-components-layout-tsx": 755544856,
+    "sq--src-components-featured-image-tsx": 4256976265
+  },
+  "components": {
+    "/Users/thomas/home/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/thomas/home/.cache/dev-404-page.js"
+    },
+    "/Users/thomas/home/src/pages/404.tsx": {
+      "query": "",
+      "componentPath": "/Users/thomas/home/src/pages/404.tsx"
+    },
+    "/Users/thomas/home/src/pages/index.tsx": {
+      "query": "",
+      "componentPath": "/Users/thomas/home/src/pages/index.tsx"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-featured-image-tsx": {
+      "name": "usersThomasHomeSrcComponentsFeaturedImageTsx2274296543",
+      "componentPath": "/Users/thomas/home/src/components/featured-image.tsx",
+      "id": "sq--src-components-featured-image-tsx",
+      "jsonName": "sq--src-components-featured-image-tsx",
+      "query": "query usersThomasHomeSrcComponentsFeaturedImageTsx2274296543 {\n  headshot: file(relativePath: {eq: \"headshot.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1200) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2274296543
+    },
+    "sq--src-components-layout-tsx": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/thomas/home/src/components/layout.tsx",
+      "id": "sq--src-components-layout-tsx",
+      "jsonName": "sq--src-components-layout-tsx",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-tsx": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/thomas/home/src/components/seo.tsx",
+      "id": "sq--src-components-seo-tsx",
+      "jsonName": "sq--src-components-seo-tsx",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
