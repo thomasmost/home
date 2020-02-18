@@ -19,7 +19,7 @@ export const About = () => (
         I am the creator of the storytelling podcast, <em><a href="https://www.thomastellsastory.com">Thomas Tells a Story</a></em>.
       </p>
       <p>
-        I have been playing tabletop roleplaying games since I was 13 and running campaigns since 15. I co-created the superhero team-up RPG <em><a href="https://www.rooftops.city">Rooftops</a></em> with Darren Caulley and kickstarted <em><a href="https://www.kickstarter.com/projects/tcmoore/sensational-a-superpowered-rpg-where-empathy-matte">Sensational</a></em>, 'a superpowered RPG where empathy matters,' in 2017. 
+        I have been playing tabletop roleplaying games since I was 13 and running campaigns since 15. I kickstarted <em><a href="https://www.kickstarter.com/projects/tcmoore/sensational-a-superpowered-rpg-where-empathy-matte">Sensational</a></em>, 'a superpowered RPG where empathy matters,' in 2017, and more recently I co-created the superhero team-up RPG <em><a href="https://www.rooftops.city">Rooftops</a></em> with Darren Caulley. 
       </p>
   </div>
 </Layout>
