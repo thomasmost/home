@@ -887,8 +887,8 @@
       "version": "2.0.17",
       "pluginOptions": {
         "plugins": [],
-        "name": "Rooftops",
-        "short_name": "rooftops",
+        "name": "Thomas Constantine Moore",
+        "short_name": "thomas constantine moore",
         "start_url": "/",
         "background_color": "#000000",
         "theme_color": "#000000",
@@ -986,7 +986,7 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/thomas/home",
       "packageJson": {
-        "name": "rooftops",
+        "name": "thomas constantine moore",
         "description": "The world is watching...",
         "version": "0.1.0",
         "keywords": [
