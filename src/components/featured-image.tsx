@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import featuredImage from '../images/headshot2017.jpg';
+import featuredImage from '../images/headshot2017_bw2.png';
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
