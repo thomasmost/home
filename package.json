@@ -1,7 +1,7 @@
 {
-  "name": "thomas constantine moore",
+  "name": "thomas_constantine_moore",
   "private": true,
-  "description": "The world is watching...",
+  "description": "",
   "version": "0.1.0",
   "author": "Thomas Moore <thomas@epicatomic.com>",
   "dependencies": {
