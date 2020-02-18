@@ -20,12 +20,12 @@ export const Navigation = () =>  (
   <Link to="/about">
     <FeatherIcon name="info" />
   </Link>
-  <Link to="/projects">
+  {/* <Link to="/projects">
     <FeatherIcon name="box" />
   </Link>
   <Link to="/more">
     <FeatherIcon name="more-horizontal" />
-  </Link>
+  </Link> */}
   {false && <Link to="/gallery">Unfettered Narcissism</Link>}
   </div>
 );

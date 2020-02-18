@@ -2,6 +2,8 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+import featuredImage from '../images/headshot2017.jpg';
+
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
@@ -14,19 +16,20 @@ import Img from "gatsby-image"
  */
 
 const FeaturedImage = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        headshot: file(relativePath: { eq: "headshot.png" }) {
-          childImageSharp {
-            fluid(maxWidth: 1200) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    `}
-    render={data => <Img fluid={data.headshot.childImageSharp.fluid} />}
-  />
+  <img src={featuredImage}></img>
+  // <StaticQuery
+  //   query={graphql`
+  //     query {
+  //       headshot: file(relativePath: { eq: "headshot.png" }) {
+  //         childImageSharp {
+  //           fluid(maxWidth: 1200) {
+  //             ...GatsbyImageSharpFluid
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `}
+  //   render={data => <Img fluid={data.headshot.childImageSharp.fluid} />}
+  // />
 )
 export default FeaturedImage

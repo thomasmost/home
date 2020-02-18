@@ -60,14 +60,16 @@ $grid-base: (
    }
    
   .img-wrapper {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: none;
-    @include grid-column(6 of 12);
-    @include grid-media($grid-1024)
-    {
-      display: block;
+    img {
+      position: fixed;
+      top: 0;
+      right: 0;
+      display: none;
+      @include grid-column(6 of 12);
+      @include grid-media($grid-1024)
+      {
+        display: block;
+      }
     }
   }
 
