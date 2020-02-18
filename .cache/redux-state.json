@@ -975,7 +975,7 @@
       "resolve": "/Users/thomas/home",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "024a5904d9109d3b62face58d8eff343",
+      "version": "22ed2328dec02c40b74e78eb8915948f",
       "pluginOptions": {
         "plugins": []
       },
@@ -986,8 +986,8 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/thomas/home",
       "packageJson": {
-        "name": "rooftops",
-        "description": "The world is watching...",
+        "name": "thomas_constantine_moore",
+        "description": "",
         "version": "0.1.0",
         "keywords": [
           "gatsby"
@@ -1092,7 +1092,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a420b11aa465a8894c20a794e9cdc7d6",
+        "contentDigest": "438c671c5646fe00ab4cee91f8ea9035",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1208,12 +1208,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2020-02-18T04:35:20.310Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-02-18T05:36:42.329Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "66bb69af52d4a7e645bf37e11830098b",
+        "contentDigest": "27214e5a94ef103d6b3f2b9355ee9b65",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1223,7 +1225,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ca32ac812a0975e5e1e995319f0c77a7",
+        "contentDigest": "05859bd2ff9a1b35edf8daa1eb8fa1f7",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1232,11 +1234,11 @@
       "absolutePath": "/Users/thomas/home/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 576,
-      "prettySize": "576 B",
-      "modifiedTime": "2020-02-18T04:03:11.722Z",
-      "accessTime": "2020-02-18T04:03:22.419Z",
-      "changeTime": "2020-02-18T04:03:11.722Z",
+      "size": 608,
+      "prettySize": "608 B",
+      "modifiedTime": "2020-02-18T04:53:16.605Z",
+      "accessTime": "2020-02-18T04:53:18.492Z",
+      "changeTime": "2020-02-18T04:53:16.605Z",
       "birthTime": "2020-01-19T22:53:47.863Z",
       "root": "/",
       "dir": "/Users/thomas/home/src",
@@ -1246,20 +1248,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 18,
+      "nlink": 19,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8605194136,
       "blocks": 0,
-      "atimeMs": 1581998602419.3894,
-      "mtimeMs": 1581998591721.885,
-      "ctimeMs": 1581998591721.885,
+      "atimeMs": 1582001598491.7341,
+      "mtimeMs": 1582001596604.8518,
+      "ctimeMs": 1582001596604.8518,
       "birthtimeMs": 1579474427863.437,
-      "atime": "2020-02-18T04:03:22.419Z",
-      "mtime": "2020-02-18T04:03:11.722Z",
-      "ctime": "2020-02-18T04:03:11.722Z",
+      "atime": "2020-02-18T04:53:18.492Z",
+      "mtime": "2020-02-18T04:53:16.605Z",
+      "ctime": "2020-02-18T04:53:16.605Z",
       "birthtime": "2020-01-19T22:53:47.863Z"
     },
     "ab68ce6a-d596-57f3-921d-320a4a4cb7c0": {
@@ -1302,6 +1304,53 @@
       "mtimeMs": 1581966090367.6594,
       "ctimeMs": 1581966090370.843,
       "birthtimeMs": 1581966090365.4229,
+      "atime": "2020-02-17T19:16:42.532Z",
+      "mtime": "2020-02-17T19:01:30.368Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.365Z"
+    },
+    "cdd03c66-5182-5b6d-84bd-309fa5ddb11a": {
+      "id": "cdd03c66-5182-5b6d-84bd-309fa5ddb11a",
+      "children": [
+        "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "182b5b30074b8dccd2d0502cad425aba",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/eth-green-qr.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/eth-green-qr.png",
+      "relativePath": "eth-green-qr.png",
+      "extension": "png",
+      "size": 1500,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2020-02-17T19:01:30.368Z",
+      "accessTime": "2020-02-17T19:16:42.532Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.365Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "eth-green-qr.png",
+      "ext": ".png",
+      "name": "eth-green-qr",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251577,
+      "blocks": 8,
+      "atimeMs": 1581967002532.1777,
+      "mtimeMs": 1581966090367.6025,
+      "ctimeMs": 1581966090370.8281,
+      "birthtimeMs": 1581966090365.3313,
       "atime": "2020-02-17T19:16:42.532Z",
       "mtime": "2020-02-17T19:01:30.368Z",
       "ctime": "2020-02-17T19:01:30.371Z",
@@ -1622,53 +1671,6 @@
       "ctime": "2020-02-17T19:01:30.371Z",
       "birthtime": "2020-02-17T19:01:30.366Z"
     },
-    "cdd03c66-5182-5b6d-84bd-309fa5ddb11a": {
-      "id": "cdd03c66-5182-5b6d-84bd-309fa5ddb11a",
-      "children": [
-        "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "182b5b30074b8dccd2d0502cad425aba",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/eth-green-qr.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/thomas/home/src/images/eth-green-qr.png",
-      "relativePath": "eth-green-qr.png",
-      "extension": "png",
-      "size": 1500,
-      "prettySize": "1.5 kB",
-      "modifiedTime": "2020-02-17T19:01:30.368Z",
-      "accessTime": "2020-02-17T19:16:42.532Z",
-      "changeTime": "2020-02-17T19:01:30.371Z",
-      "birthTime": "2020-02-17T19:01:30.365Z",
-      "root": "/",
-      "dir": "/Users/thomas/home/src/images",
-      "base": "eth-green-qr.png",
-      "ext": ".png",
-      "name": "eth-green-qr",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8605251577,
-      "blocks": 8,
-      "atimeMs": 1581967002532.1777,
-      "mtimeMs": 1581966090367.6025,
-      "ctimeMs": 1581966090370.8281,
-      "birthtimeMs": 1581966090365.3313,
-      "atime": "2020-02-17T19:16:42.532Z",
-      "mtime": "2020-02-17T19:01:30.368Z",
-      "ctime": "2020-02-17T19:01:30.371Z",
-      "birthtime": "2020-02-17T19:01:30.365Z"
-    },
     "340e2fc8-b28c-513d-8702-6f2f06942002": {
       "id": "340e2fc8-b28c-513d-8702-6f2f06942002",
       "children": [
@@ -1711,73 +1713,6 @@
       "mtimeMs": 1581966090368.9575,
       "ctimeMs": 1581966090371.2913,
       "birthtimeMs": 1581966090365.9268,
-      "atime": "2020-02-17T19:16:42.533Z",
-      "mtime": "2020-02-17T19:01:30.369Z",
-      "ctime": "2020-02-17T19:01:30.371Z",
-      "birthtime": "2020-02-17T19:01:30.366Z"
-    },
-    "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9": {
-      "id": "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9",
-      "children": [],
-      "parent": "cdd03c66-5182-5b6d-84bd-309fa5ddb11a",
-      "internal": {
-        "contentDigest": "182b5b30074b8dccd2d0502cad425aba",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4": {
-      "id": "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4",
-      "children": [],
-      "parent": "340e2fc8-b28c-513d-8702-6f2f06942002",
-      "internal": {
-        "contentDigest": "157a7e56dcb790434196d49e0d687df4",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "a8cf6546-a255-5e1b-9e84-cd82f3dd0771": {
-      "id": "a8cf6546-a255-5e1b-9e84-cd82f3dd0771",
-      "children": [
-        "019449d5-14e2-5323-8a4e-54af8bcc03c4"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "cd3ab928102b2b5605c07a77f60ccd5a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/paypal-logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/thomas/home/src/images/paypal-logo.png",
-      "relativePath": "paypal-logo.png",
-      "extension": "png",
-      "size": 65405,
-      "prettySize": "65.4 kB",
-      "modifiedTime": "2020-02-17T19:01:30.369Z",
-      "accessTime": "2020-02-17T19:16:42.533Z",
-      "changeTime": "2020-02-17T19:01:30.371Z",
-      "birthTime": "2020-02-17T19:01:30.366Z",
-      "root": "/",
-      "dir": "/Users/thomas/home/src/images",
-      "base": "paypal-logo.png",
-      "ext": ".png",
-      "name": "paypal-logo",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8605251588,
-      "blocks": 128,
-      "atimeMs": 1581967002533.0703,
-      "mtimeMs": 1581966090369.3464,
-      "ctimeMs": 1581966090371.445,
-      "birthtimeMs": 1581966090366.045,
       "atime": "2020-02-17T19:16:42.533Z",
       "mtime": "2020-02-17T19:01:30.369Z",
       "ctime": "2020-02-17T19:01:30.371Z",
@@ -1830,6 +1765,93 @@
       "ctime": "2020-02-17T19:01:30.371Z",
       "birthtime": "2020-02-17T19:01:30.366Z"
     },
+    "a8cf6546-a255-5e1b-9e84-cd82f3dd0771": {
+      "id": "a8cf6546-a255-5e1b-9e84-cd82f3dd0771",
+      "children": [
+        "019449d5-14e2-5323-8a4e-54af8bcc03c4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cd3ab928102b2b5605c07a77f60ccd5a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/paypal-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/paypal-logo.png",
+      "relativePath": "paypal-logo.png",
+      "extension": "png",
+      "size": 65405,
+      "prettySize": "65.4 kB",
+      "modifiedTime": "2020-02-17T19:01:30.369Z",
+      "accessTime": "2020-02-17T19:16:42.533Z",
+      "changeTime": "2020-02-17T19:01:30.371Z",
+      "birthTime": "2020-02-17T19:01:30.366Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "paypal-logo.png",
+      "ext": ".png",
+      "name": "paypal-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605251588,
+      "blocks": 128,
+      "atimeMs": 1581967002533.0703,
+      "mtimeMs": 1581966090369.3464,
+      "ctimeMs": 1581966090371.445,
+      "birthtimeMs": 1581966090366.045,
+      "atime": "2020-02-17T19:16:42.533Z",
+      "mtime": "2020-02-17T19:01:30.369Z",
+      "ctime": "2020-02-17T19:01:30.371Z",
+      "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9": {
+      "id": "2e0e8ae8-8c64-5c65-9da8-c9c8e02cf3e9",
+      "children": [],
+      "parent": "cdd03c66-5182-5b6d-84bd-309fa5ddb11a",
+      "internal": {
+        "contentDigest": "182b5b30074b8dccd2d0502cad425aba",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4": {
+      "id": "fdf90df1-e20d-5d5b-a686-b4ff1ef61eb4",
+      "children": [],
+      "parent": "340e2fc8-b28c-513d-8702-6f2f06942002",
+      "internal": {
+        "contentDigest": "157a7e56dcb790434196d49e0d687df4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "43e34189-7d92-5aa0-ba6e-2486b684f0f9": {
+      "id": "43e34189-7d92-5aa0-ba6e-2486b684f0f9",
+      "children": [],
+      "parent": "388398eb-b32a-507a-87dc-3f1540f148d7",
+      "internal": {
+        "contentDigest": "0e3ad8c7720065d9159987683b6ebb44",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "019449d5-14e2-5323-8a4e-54af8bcc03c4": {
+      "id": "019449d5-14e2-5323-8a4e-54af8bcc03c4",
+      "children": [],
+      "parent": "a8cf6546-a255-5e1b-9e84-cd82f3dd0771",
+      "internal": {
+        "contentDigest": "cd3ab928102b2b5605c07a77f60ccd5a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "0fa05211-b5c1-5d50-96a8-f466f59c710b": {
       "id": "0fa05211-b5c1-5d50-96a8-f466f59c710b",
       "children": [
@@ -1876,26 +1898,6 @@
       "mtime": "2020-02-17T19:01:30.370Z",
       "ctime": "2020-02-17T19:01:30.373Z",
       "birthtime": "2020-02-17T19:01:30.365Z"
-    },
-    "019449d5-14e2-5323-8a4e-54af8bcc03c4": {
-      "id": "019449d5-14e2-5323-8a4e-54af8bcc03c4",
-      "children": [],
-      "parent": "a8cf6546-a255-5e1b-9e84-cd82f3dd0771",
-      "internal": {
-        "contentDigest": "cd3ab928102b2b5605c07a77f60ccd5a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "43e34189-7d92-5aa0-ba6e-2486b684f0f9": {
-      "id": "43e34189-7d92-5aa0-ba6e-2486b684f0f9",
-      "children": [],
-      "parent": "388398eb-b32a-507a-87dc-3f1540f148d7",
-      "internal": {
-        "contentDigest": "0e3ad8c7720065d9159987683b6ebb44",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "8f691859-f128-533f-b047-c9d403ff739f": {
       "id": "8f691859-f128-533f-b047-c9d403ff739f",
@@ -2039,7 +2041,7 @@
       "size": 806443,
       "prettySize": "806 kB",
       "modifiedTime": "2020-02-17T19:01:30.572Z",
-      "accessTime": "2020-02-17T19:01:31.838Z",
+      "accessTime": "2020-02-18T05:19:36.077Z",
       "changeTime": "2020-02-17T19:01:30.580Z",
       "birthTime": "2020-02-17T19:01:30.366Z",
       "root": "/",
@@ -2057,14 +2059,71 @@
       "blksize": 4096,
       "ino": 8605251585,
       "blocks": 1576,
-      "atimeMs": 1581966091838.3645,
+      "atimeMs": 1582003176076.5303,
       "mtimeMs": 1581966090572.3713,
       "ctimeMs": 1581966090579.9163,
       "birthtimeMs": 1581966090365.8586,
-      "atime": "2020-02-17T19:01:31.838Z",
+      "atime": "2020-02-18T05:19:36.077Z",
       "mtime": "2020-02-17T19:01:30.572Z",
       "ctime": "2020-02-17T19:01:30.580Z",
       "birthtime": "2020-02-17T19:01:30.366Z"
+    },
+    "f62c038f-3e53-5ad3-97bd-c97e6f9dc6cf": {
+      "id": "f62c038f-3e53-5ad3-97bd-c97e6f9dc6cf",
+      "children": [
+        "809c9162-deee-5961-bacc-2fe6f688846e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4d8cbed415e81a598e0ff10000668e86",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/headshot2017.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomas/home/src/images/headshot2017.jpg",
+      "relativePath": "headshot2017.jpg",
+      "extension": "jpg",
+      "size": 1392412,
+      "prettySize": "1.39 MB",
+      "modifiedTime": "2018-08-28T15:18:49.000Z",
+      "accessTime": "2020-02-18T04:54:39.314Z",
+      "changeTime": "2020-02-18T04:53:16.605Z",
+      "birthTime": "2018-08-28T15:18:49.000Z",
+      "root": "/",
+      "dir": "/Users/thomas/home/src/images",
+      "base": "headshot2017.jpg",
+      "ext": ".jpg",
+      "name": "headshot2017",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605279239,
+      "blocks": 2720,
+      "atimeMs": 1582001679314.0798,
+      "mtimeMs": 1535469529000,
+      "ctimeMs": 1582001596604.8516,
+      "birthtimeMs": 1535469529000,
+      "atime": "2020-02-18T04:54:39.314Z",
+      "mtime": "2018-08-28T15:18:49.000Z",
+      "ctime": "2020-02-18T04:53:16.605Z",
+      "birthtime": "2018-08-28T15:18:49.000Z"
+    },
+    "809c9162-deee-5961-bacc-2fe6f688846e": {
+      "id": "809c9162-deee-5961-bacc-2fe6f688846e",
+      "children": [],
+      "parent": "f62c038f-3e53-5ad3-97bd-c97e6f9dc6cf",
+      "internal": {
+        "contentDigest": "4d8cbed415e81a598e0ff10000668e86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -2145,77 +2204,18 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "f62c038f-3e53-5ad3-97bd-c97e6f9dc6cf": {
-      "id": "f62c038f-3e53-5ad3-97bd-c97e6f9dc6cf",
-      "children": [
-        "809c9162-deee-5961-bacc-2fe6f688846e"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4d8cbed415e81a598e0ff10000668e86",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/headshot2017.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/thomas/home/src/images/headshot2017.jpg",
-      "relativePath": "headshot2017.jpg",
-      "extension": "jpg",
-      "size": 1392412,
-      "prettySize": "1.39 MB",
-      "modifiedTime": "2018-08-28T15:18:49.000Z",
-      "accessTime": "2020-02-18T04:53:11.329Z",
-      "changeTime": "2020-02-18T04:53:16.605Z",
-      "birthTime": "2018-08-28T15:18:49.000Z",
-      "root": "/",
-      "dir": "/Users/thomas/home/src/images",
-      "base": "headshot2017.jpg",
-      "ext": ".jpg",
-      "name": "headshot2017",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8605279239,
-      "blocks": 2720,
-      "atimeMs": 1582001591328.5999,
-      "mtimeMs": 1535469529000,
-      "ctimeMs": 1582001596604.8516,
-      "birthtimeMs": 1535469529000,
-      "atime": "2020-02-18T04:53:11.329Z",
-      "mtime": "2018-08-28T15:18:49.000Z",
-      "ctime": "2020-02-18T04:53:16.605Z",
-      "birthtime": "2018-08-28T15:18:49.000Z"
-    },
-    "809c9162-deee-5961-bacc-2fe6f688846e": {
-      "id": "809c9162-deee-5961-bacc-2fe6f688846e",
-      "children": [],
-      "parent": "f62c038f-3e53-5ad3-97bd-c97e6f9dc6cf",
-      "internal": {
-        "contentDigest": "4d8cbed415e81a598e0ff10000668e86",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b04b05018e1cf36c06540b1a47a913c1"
+    "PLUGINS_HASH": "c93c11644e99a665088a195ba42d73ae"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-tsx",
         "sq--src-components-seo-tsx"
-      ],
-      "4943ea41-b9c1-532a-a27d-0bc0936cee7f": [],
-      "f3664937-1d57-54ec-abe4-97b967c55f47": []
+      ]
     },
     "connections": {}
   },

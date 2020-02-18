@@ -33,6 +33,9 @@ $grid-base: (
       position: relative;
       header, main {
         margin-left: 20px;
+        p:last-child {
+          margin-bottom: 100px;
+        }
       }
       .content-wrapper {
          @include grid-container;
