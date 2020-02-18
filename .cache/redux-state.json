@@ -887,8 +887,8 @@
       "version": "2.0.17",
       "pluginOptions": {
         "plugins": [],
-        "name": "Thomas Constantine Moore",
-        "short_name": "thomas constantine moore",
+        "name": "Rooftops",
+        "short_name": "rooftops",
         "start_url": "/",
         "background_color": "#000000",
         "theme_color": "#000000",
@@ -986,7 +986,7 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/thomas/home",
       "packageJson": {
-        "name": "thomas constantine moore",
+        "name": "rooftops",
         "description": "The world is watching...",
         "version": "0.1.0",
         "keywords": [
@@ -1203,19 +1203,17 @@
     "Site": {
       "siteMetadata": {
         "title": "Thomas Constantine Moore",
-        "description": "The world is watching...",
+        "description": "creative | technologist",
         "author": "@thomascmost"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2020-02-18T04:35:20.310Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b63d05943d53539b544ea0750de50302",
+        "contentDigest": "66bb69af52d4a7e645bf37e11830098b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
