@@ -31,10 +31,13 @@ $grid-base: (
    body {
       height: 100%;
       position: relative;
+      header, main {
+        margin-left: 20px;
+      }
       .content-wrapper {
          @include grid-container;
          // box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
-         width: 96%;
+         width: 100%;
          // max-width: 1024px;
          min-width: 412px;
          margin: auto;
@@ -56,19 +59,17 @@ $grid-base: (
       }
    }
    
-   .img-wrapper {
-      img {
-         position: fixed;
-         bottom: 0;
-         right: 0;
-         display: none;
-         @include grid-column(6 of 12);
-         @include grid-media($grid-1024)
-         {
-            display: block;
-         }
-      }
-   }
+  .img-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    @include grid-column(6 of 12);
+    @include grid-media($grid-1024)
+    {
+      display: block;
+    }
+  }
 
    
    .nav-wrapper {

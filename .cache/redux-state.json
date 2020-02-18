@@ -1206,12 +1206,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-02-17T19:09:09.278Z",
+      "buildTime": "2020-02-18T03:41:12.351Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "177f6534b627e9ea5296c6f82091b407",
+        "contentDigest": "4da665638c490474a53fff9cb952908b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1736,51 +1736,6 @@
       "ctime": "2020-02-17T19:01:30.371Z",
       "birthtime": "2020-02-17T19:01:30.366Z"
     },
-    "bef22b26-1643-54b3-9e12-d95033590c8e": {
-      "id": "bef22b26-1643-54b3-9e12-d95033590c8e",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "d13ce038b933aa9984b28aca4aa7be4a",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/yollerhorn.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/thomas/home/src/images/yollerhorn.svg",
-      "relativePath": "yollerhorn.svg",
-      "extension": "svg",
-      "size": 662,
-      "prettySize": "662 B",
-      "modifiedTime": "2020-02-17T19:01:30.369Z",
-      "accessTime": "2020-02-17T19:01:31.844Z",
-      "changeTime": "2020-02-17T19:01:30.372Z",
-      "birthTime": "2020-02-17T19:01:30.366Z",
-      "root": "/",
-      "dir": "/Users/thomas/home/src/images",
-      "base": "yollerhorn.svg",
-      "ext": ".svg",
-      "name": "yollerhorn",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8605251592,
-      "blocks": 8,
-      "atimeMs": 1581966091844.4265,
-      "mtimeMs": 1581966090369.25,
-      "ctimeMs": 1581966090371.5342,
-      "birthtimeMs": 1581966090366.213,
-      "atime": "2020-02-17T19:01:31.844Z",
-      "mtime": "2020-02-17T19:01:30.369Z",
-      "ctime": "2020-02-17T19:01:30.372Z",
-      "birthtime": "2020-02-17T19:01:30.366Z"
-    },
     "c72e30f2-fab3-58d6-b625-4496fa844204": {
       "id": "c72e30f2-fab3-58d6-b625-4496fa844204",
       "children": [],
@@ -2196,7 +2151,7 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-seo-tsx": 1025518380,
     "sq--src-components-layout-tsx": 755544856,
-    "sq--src-components-featured-image-tsx": 4256976265
+    "sq--src-components-featured-image-tsx": 2274296543
   },
   "components": {
     "/Users/thomas/home/.cache/dev-404-page.js": {
