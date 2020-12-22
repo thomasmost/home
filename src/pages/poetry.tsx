@@ -1,7 +1,15 @@
 import * as React from "react";
 import Layout from "../components/layout";
 
-const TheNightVisitor = `Home is not
+const poemize = (templateLiteral: string) => {
+  return templateLiteral.split('\n').map((line) => (
+    <div>
+      line
+    </div>
+  ))
+}
+
+const TheNightVisitor = poemize(`Home is not
 Where the heart is but where the hearth is
 Somewhere warm and bright
 To keep the Night Visitor at bay
@@ -19,9 +27,9 @@ An hour, maybe longer
 Hands folded in our laps
 I dare not look too close
 I know
-His eyes are on my throat`.replace(/\n/g, "\n");
+His eyes are on my throat`);
 
-const TheJTrain = `It's snowing on the J train
+const TheJTrain = poemize(`It's snowing on the J train
 It started with just a few flakes, outside,
 The way snow does
 The way it makes you think, 
@@ -40,9 +48,9 @@ And we all stay glued to our phones, praying that the end will not come during o
 Saying to our loved ones, "It'll be okay."
 "I'll see you soon."
 "The movement grows."
-And still it snows.`.replace(/\n/g, "\n");
+And still it snows.`);
 
-const DreamOfYou = `I dream of you in a whispering wild
+const DreamOfYou = poemize(`I dream of you in a whispering wild
 Bathed in the sun and full in bloom
 With all the colors of summer and love
 Mixing thoughts and thoughtlessness
@@ -66,7 +74,7 @@ And so we are; we dare to trembling touch
 And nothing stops, but nothing ends
 Not now I’ve found the tropics in your lips
 Not now that I have dreamed with you
-And so I dream of you.`.replace(/\n/g, "\n");
+And so I dream of you.`);
 
 export const Poetry = () => (
   <Layout>
