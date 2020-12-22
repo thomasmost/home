@@ -20,8 +20,12 @@ export const About = () => (
         I am the creator of the storytelling podcast, <em><a href="https://www.thomastellsastory.com">Thomas Tells a Story</a></em>.
       </p>
       <nav>
-        <Link to="/poetry">Short Sequences of Words</Link>
-        <Link to="https://www.thomastellsastory.com/downloads">Long Sequences of Words</Link>
+        <div>
+          <Link to="/poetry">Short Sequences of Words</Link>
+        </div>
+        <div>
+          <a target="_blank" href="https://www.thomastellsastory.com/downloads">Long Sequences of Words</a>
+        </div>
       </nav>
   </div>
 </Layout>
