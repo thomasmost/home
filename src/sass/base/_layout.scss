@@ -45,6 +45,7 @@ $grid-base: (
          min-width: 412px;
          margin: auto;
          padding-top: 1.6em;
+         height: calc(100% - 64px);
       }
    }
 } 
@@ -52,7 +53,6 @@ $grid-base: (
 .content-wrapper {
    
    .page-container {
-      height: calc(100% - 64px);
       @include grid-media($grid-base)
       {
          @include grid-column(12 of 12);
