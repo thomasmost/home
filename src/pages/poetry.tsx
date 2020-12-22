@@ -19,7 +19,7 @@ An hour, maybe longer
 Hands folded in our laps
 I dare not look too close
 I know
-His eyes are on my throat`;
+His eyes are on my throat`.replace(/\n/g, "\n");
 
 const TheJTrain = `It's snowing on the J train
 It started with just a few flakes, outside,
@@ -40,7 +40,7 @@ And we all stay glued to our phones, praying that the end will not come during o
 Saying to our loved ones, "It'll be okay."
 "I'll see you soon."
 "The movement grows."
-And still it snows.`;
+And still it snows.`.replace(/\n/g, "\n");
 
 const DreamOfYou = `I dream of you in a whispering wild
 Bathed in the sun and full in bloom
@@ -66,7 +66,7 @@ And so we are; we dare to trembling touch
 And nothing stops, but nothing ends
 Not now I’ve found the tropics in your lips
 Not now that I have dreamed with you
-And so I dream of you.`;
+And so I dream of you.`.replace(/\n/g, "\n");
 
 export const Poetry = () => (
   <Layout>
