@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 const poemize = (templateLiteral: string) => {
   return templateLiteral.split('\n').map((line) => (
     <div>
-      line
+      {line}
     </div>
   ))
 }
