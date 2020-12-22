@@ -6,7 +6,7 @@ import "../sass/index.scss"
 import { Navigation } from "./navigation"
 import FeaturedImage from "./featured-image"
 
-const Layout = ({ children }) => (
+const Layout: React.FC = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {

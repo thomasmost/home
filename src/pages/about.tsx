@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import * as React from "react";
 import Layout from "../components/layout";
 
@@ -6,10 +7,10 @@ export const About = () => (
     <h3>About</h3>
     <div className="content-block">
       <p>
-        I am an actor, writer, and developer.
+        I'm an actor, writer, and developer.
       </p>
       <p>
-        I graduated from Carnegie Mellon University in 2014, and I work as a software engineer at <a href="https://emburse.com/">Emburse</a>.
+        I graduated from Carnegie Mellon University in 2014, and I currently work as a software engineer in New York.
       </p>
       <p>
         I am passionate about immersive theater; I appeared in Quantum Theatre's production of <em>Tamara</em>, 
@@ -18,9 +19,10 @@ export const About = () => (
       <p>
         I am the creator of the storytelling podcast, <em><a href="https://www.thomastellsastory.com">Thomas Tells a Story</a></em>.
       </p>
-      <p>
-        I have been playing tabletop roleplaying games since I was 13 and running campaigns since 15. I wrote <em><a href="https://www.kickstarter.com/projects/tcmoore/sensational-a-superpowered-rpg-where-empathy-matte">Sensational</a></em>, 'a superpowered RPG where empathy matters,' in 2017, and more recently I co-created the superhero team-up RPG <em><a href="https://www.rooftops.city">Rooftops</a></em> with Darren Caulley. 
-      </p>
+      <nav>
+        <Link to="/poetry">Short Sequences of Words</Link>
+        <Link to="https://www.thomastellsastory.com/downloads">Long Sequences of Words</Link>
+      </nav>
   </div>
 </Layout>
 );
