@@ -78,7 +78,6 @@ And so I dream of you.`);
 
 export const Poetry = () => (
   <Layout>
-    <h3>Poetry</h3>
     <div className="content-block">
       <div style={{ marginBottom: '20px' }}>
         <p>
