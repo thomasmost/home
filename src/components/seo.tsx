@@ -1,5 +1,5 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from "gatsby";
 
 interface ISEOPropTypes {
@@ -18,64 +18,23 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
         const metaDescription =
           description || data.site.siteMetadata.description;
         return (
-          <Helmet
-            htmlAttributes={{
-              lang
-            }}
-            title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-            meta={[
-              {
-                name: `description`,
-                content: metaDescription
-              },
-              {
-                property: `og:title`,
-                content: title
-              },
-              {
-                property: `og:description`,
-                content: metaDescription
-              },
-              // {
-              //   property: `og:image`,
-              //   content: `https://www.thomasconstantinemoore.com/card.jpeg`
-              // },
-              {
-                property: `og:type`,
-                content: `website`
-              },
-              {
-                name: `twitter:card`,
-                content: `summary`
-              },
-              {
-                name: `twitter:creator`,
-                content: data.site.siteMetadata.author
-              },
-              {
-                name: `twitter:title`,
-                content: title
-              },
-              {
-                name: `twitter:description`,
-                content: metaDescription
-              },
-              // {
-              //   property: `twitter:image`,
-              //   content: `https://www.romans.nyc/card.jpeg`
-              // }
-            ]
-              .concat(
-                keywords.length > 0
-                  ? {
-                      name: `keywords`,
-                      content: keywords.join(`, `)
-                    }
-                  : []
-              )
-              .concat(meta)}
-          />
+
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{title}</title>
+      <meta property="description">{metaDescription}</meta>
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="@thomascmost" />
+      <meta property="og:url" content="https://www.thomasconstantinemoore.com" />
+      <meta property="og:title" content={title} />
+      <meta
+        property="og:description"
+        content={metaDescription}
+      />
+      <meta property="og:image" content="https://www.thomasconstantinemoore.com/card.png" />
+
+      <link rel="canonical" href="https://thomasconstantinemoore.com/" />
+    </Helmet>
         );
       }}
     />
@@ -96,7 +55,6 @@ const detailsQuery = graphql`
       siteMetadata {
         title
         description
-        author
       }
     }
   }

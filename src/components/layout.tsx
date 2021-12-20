@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
 
-import "../sass/index.scss"
 import { Navigation } from "./navigation"
 import FeaturedImage from "./featured-image"
 

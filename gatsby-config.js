@@ -1,49 +1,25 @@
 module.exports = {
-  siteMetadata: {
-    title: `Thomas Constantine Moore`,
-    description: `creative | technologist`,
-    author: `@thomascmost`,
-  },
+  // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
+  // don't need to define it here (just if you need to change the options)
   plugins: [
-    `gatsby-plugin-typescript`,
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        includePaths: require(`bourbon-neat`).includePaths
-      }
-    },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          'material icons'
+          `Newsreader:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          'G-T42M7FBDGX', // Google Analytics / GA
         ],
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Rooftops`,
-        short_name: `rooftops`,
-        start_url: `/`,
-        background_color: `#000000`,
-        theme_color: `#000000`,
-        display: `minimal-ui`,
-        icon: `src/ico/favicon-96x96.png`, // This path is relative to the root of the site.
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
-}
+};
