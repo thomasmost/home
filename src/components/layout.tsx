@@ -4,6 +4,12 @@ import { StaticQuery, graphql, Link } from "gatsby"
 
 import { Navigation } from "./navigation"
 import FeaturedImage from "./featured-image"
+import styled from "@emotion/styled"
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 const Layout: React.FC = ({ children }) => (
   <StaticQuery
@@ -17,7 +23,7 @@ const Layout: React.FC = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="content-wrapper">
+      <Container>
         <header>
           <Link to="/">
             <h1>
@@ -34,7 +40,7 @@ const Layout: React.FC = ({ children }) => (
         <div className="img-wrapper">
           <FeaturedImage />
         </div>
-      </div>
+      </Container>
     )}
   />
 )
