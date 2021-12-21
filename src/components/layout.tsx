@@ -45,12 +45,23 @@ export const Page = styled.div`
   justify-content: space-between;
 `;
 
+export const Main = styled.main`
+  width: 80%;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    padding-right: 20px;
+  }
+`;
+
 export const Footer = styled.footer`
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
   max-height: 100px;
+  div {
+    line-height: 2em;
+  }
   img {
     width: 33%;
     max-width: 400px;
@@ -85,7 +96,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
             <Navigation />
           </Header>
 
-          <main>{children}</main>
+          <Main>{children}</Main>
         </section>
         <Footer>
           <div>© 2021 Thomas Constantine Moore</div>

@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { Container, Footer, FooterImage, Header } from "../components/layout";
 import SEO from "../components/seo";
 import { Navigation } from "../components/navigation";
+import { Quote } from ".";
 
 const NotFoundPage = () => (
   <Container>
@@ -17,9 +18,7 @@ const NotFoundPage = () => (
         <Navigation />
       </Header>
       <main>
-        <h2 style={{ marginLeft: "40px", marginTop: "33vh" }}>
-          There's nothing here, unfortunately...
-        </h2>
+        <Quote>There's nothing here, unfortunately...</Quote>
       </main>
     </section>
     <Footer>

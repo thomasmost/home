@@ -14,6 +14,7 @@ const Nav = styled.nav`
   a {
     margin-right: 20px;
     color: black;
+    font-weight: 600;
   }
 `;
 
