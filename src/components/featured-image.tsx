@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import React from "react";
 
-import featuredImage from "../images/headshot2017_bw2.png";
+import featuredImage from "../images/headshot2017_crop.png";
 
 const ImgWrapper = styled.div`
   display: flex;
@@ -10,14 +10,10 @@ const ImgWrapper = styled.div`
   justify-content: space-between;
   img {
     width: 50%;
+    max-width: 400px;
     margin: 0;
   }
 `;
 
-const FeaturedImage = () => (
-  <ImgWrapper>
-    <div>© 2021 Thomas Constantine Moore</div>
-    <img src={featuredImage}></img>
-  </ImgWrapper>
-);
+const FeaturedImage = () => <img src={featuredImage}></img>;
 export default FeaturedImage;

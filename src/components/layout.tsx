@@ -15,9 +15,13 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-family: "Courier New", serif;
+  margin-left: 20px;
   p {
     font-size: 1.2em;
     line-height: 1.5em;
+    a {
+      text-decoration: underline !important;
+    }
   }
   a {
     text-decoration: none;
@@ -25,8 +29,25 @@ const Container = styled.div`
   }
 `;
 
-const Page = styled.main`
-  min-height: 400px;
+const Page = styled.div`
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const PageContent = styled.main``;
+
+const PageWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  img {
+    width: 33%;
+    max-width: 400px;
+    margin: 0;
+  }
 `;
 
 const Layout: React.FC = ({ children }) => (
@@ -49,10 +70,14 @@ const Layout: React.FC = ({ children }) => (
 
           <Navigation />
         </Header>
-        <Page>{children}</Page>
-        <div className="img-wrapper">
+        <PageWrapper>
+          <Page>
+            <PageContent>{children}</PageContent>
+
+            <div>© 2021 Thomas Constantine Moore</div>
+          </Page>
           <FeaturedImage />
-        </div>
+        </PageWrapper>
       </Container>
     )}
   />
