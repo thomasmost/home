@@ -60,8 +60,8 @@ Where I'll curl up on the coals
 That are so fucking old they burn cold
 And I'll spend too much (or too little)
 Time on this rhyme
-Turning on a dime
-Biting into a lime
+Biting the lime
+Turn on a dime
 Fighting the frost that is riming my mind
 To try and conjure a half-decent memory
 Instead of a demo-reel
