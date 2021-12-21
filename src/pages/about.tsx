@@ -21,7 +21,7 @@ export const About = () => (
       <Link to="/poetry">Short Sequences of Words</Link>
     </p>
     <p>
-      <OutLink href="https://www.thomastellsastory.com/downloads">
+      <OutLink href="https://www.thomastellsastory.com/download">
         Long Sequences of Words
       </OutLink>
     </p>
