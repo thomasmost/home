@@ -2,12 +2,8 @@ import * as React from "react";
 import Layout from "../components/layout";
 
 const poemize = (templateLiteral: string) => {
-  return templateLiteral.split('\n').map((line) => (
-    <div>
-      {line}
-    </div>
-  ))
-}
+  return templateLiteral.split("\n").map((line) => <div>{line}</div>);
+};
 
 const TheNightVisitor = poemize(`Home is not
 Where the heart is but where the hearth is
@@ -79,32 +75,26 @@ And so I dream of you.`);
 export const Poetry = () => (
   <Layout>
     <div className="content-block">
-      <div style={{ marginBottom: '20px' }}>
+      <div style={{ marginBottom: "20px" }}>
         <p>
           <em>The Night Visitor</em>
         </p>
-        <div>
-          {TheNightVisitor}
-        </div>
+        <div>{TheNightVisitor}</div>
       </div>
-      <div style={{ marginBottom: '20px' }}>
+      <div style={{ marginBottom: "20px" }}>
         <p>
           <em>It's Snowing on the J Train</em>
         </p>
-        <div>
-          {TheJTrain}
-        </div>
+        <div>{TheJTrain}</div>
       </div>
-      <div style={{ marginBottom: '20px' }}>
+      <div style={{ marginBottom: "20px" }}>
         <p>
           <em>Dream of You</em>
         </p>
-        <div>
-          {DreamOfYou}
-        </div>
+        <div>{DreamOfYou}</div>
       </div>
-  </div>
-</Layout>
+    </div>
+  </Layout>
 );
 
 export default Poetry;

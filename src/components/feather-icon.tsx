@@ -1,7 +1,12 @@
-import React from 'react'
-import featherSprite from 'feather-icons/dist/feather-sprite.svg'
+import React from "react";
+import featherSprite from "feather-icons/dist/feather-sprite.svg";
 
-const FeatherIcon = ({ name, color = 'currentColor', size = 24, ...restProps }) => (
+const FeatherIcon = ({
+  name,
+  color = "currentColor",
+  size = 24,
+  ...restProps
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -16,6 +21,6 @@ const FeatherIcon = ({ name, color = 'currentColor', size = 24, ...restProps }) 
   >
     <use xlinkHref={`${featherSprite}#${name}`} />
   </svg>
-)
+);
 
 export default FeatherIcon;

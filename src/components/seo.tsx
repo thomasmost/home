@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 
 interface ISEOPropTypes {
@@ -14,27 +14,29 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
   return (
     <StaticQuery
       query={detailsQuery}
-      render={data => {
+      render={(data) => {
         const metaDescription =
           description || data.site.siteMetadata.description;
         return (
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>{title}</title>
+            <meta property="description">{metaDescription}</meta>
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content="@thomascmost" />
+            <meta
+              property="og:url"
+              content="https://www.thomasconstantinemoore.com"
+            />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={metaDescription} />
+            <meta
+              property="og:image"
+              content="https://www.thomasconstantinemoore.com/card.png"
+            />
 
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>{title}</title>
-      <meta property="description">{metaDescription}</meta>
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@thomascmost" />
-      <meta property="og:url" content="https://www.thomasconstantinemoore.com" />
-      <meta property="og:title" content={title} />
-      <meta
-        property="og:description"
-        content={metaDescription}
-      />
-      <meta property="og:image" content="https://www.thomasconstantinemoore.com/card.png" />
-
-      <link rel="canonical" href="https://thomasconstantinemoore.com/" />
-    </Helmet>
+            <link rel="canonical" href="https://thomasconstantinemoore.com/" />
+          </Helmet>
         );
       }}
     />
@@ -44,7 +46,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: []
+  keywords: [],
 };
 
 export default SEO;
