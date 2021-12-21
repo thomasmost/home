@@ -1,15 +1,16 @@
-import React from "react"
+import styled from "@emotion/styled";
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
 
+const Quote = styled.p`
+  margin-top: 200px;
+  font-size: 2.4em !important;
+`;
 const IndexPage = () => (
   <Layout>
-    <div
-      className="page">
-      <p className="landing-page-quote last-element">"Something pithy about empty space."</p>
-    </div>
+    <Quote>"Something pithy about empty space."</Quote>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
