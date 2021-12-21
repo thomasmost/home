@@ -73,7 +73,7 @@ It's what I have
 And it's better than nothing.`);
 
 export const Poetry = () => (
-  <Layout>
+  <Layout title="Poetry">
     <div className="content-block">
       <div style={{ marginBottom: "20px" }}>
         <p>

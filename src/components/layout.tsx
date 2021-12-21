@@ -5,6 +5,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 import { Navigation } from "./navigation";
 import FeaturedImage from "./featured-image";
 import styled from "@emotion/styled";
+import SEO from "./seo";
 
 const Header = styled.header`
   display: flex;
@@ -50,7 +51,11 @@ const PageWrapper = styled.div`
   }
 `;
 
-const Layout: React.FC = ({ children }) => (
+interface LayoutProps {
+  title?: string;
+}
+
+const Layout: React.FC<LayoutProps> = ({ children, title }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -63,6 +68,7 @@ const Layout: React.FC = ({ children }) => (
     `}
     render={(data) => (
       <Container>
+        <SEO title={title || ""} />
         <Header>
           <Link to="/">
             <h1>Thomas Constantine Moore</h1>

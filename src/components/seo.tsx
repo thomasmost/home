@@ -20,11 +20,18 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
         return (
           <Helmet>
             <meta charSet="utf-8" />
-            <title>{title}</title>
+            <title>
+              {title ? `TCM | ${title}` : "Thomas Constantine Moore"}
+            </title>
             <link
               rel="icon"
               href="https://www.thomasconstantinemoore.com/favicon.ico"
             />
+            <link
+              rel="manifest"
+              href="https://www.thomasconstantinemoore.com/manifest.json"
+            />
+
             <meta property="description">{metaDescription}</meta>
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content="@thomascmost" />

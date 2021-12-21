@@ -8,7 +8,7 @@ const Quote = styled.p`
   font-size: 2.4em !important;
 `;
 const IndexPage = () => (
-  <Layout>
+  <Layout title="Home">
     <Quote>"Something pithy about empty space."</Quote>
   </Layout>
 );

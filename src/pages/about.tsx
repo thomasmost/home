@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import { Link } from "gatsby";
 
 export const About = () => (
-  <Layout>
+  <Layout title="About">
     <p>
       I'm a writer, actor, and software engineer. I created the podcast{" "}
       <OutLink href="https://www.thomastellsastory.com">
