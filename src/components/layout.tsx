@@ -7,12 +7,12 @@ import FeaturedImage from "./featured-image";
 import styled from "@emotion/styled";
 import SEO from "./seo";
 
-const Header = styled.header`
+export const Header = styled.header`
   display: flex;
   justify-content: space-between;
 `;
 
-const Container = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-family: "Courier New", serif;
@@ -30,16 +30,16 @@ const Container = styled.div`
   }
 `;
 
-const Page = styled.div`
+export const Page = styled.div`
   min-height: 640px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 `;
 
-const PageContent = styled.main``;
+export const PageContent = styled.main``;
 
-const PageWrapper = styled.div`
+export const PageWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -88,9 +88,5 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
     )}
   />
 );
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default Layout;
