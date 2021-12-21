@@ -21,6 +21,10 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
           <Helmet>
             <meta charSet="utf-8" />
             <title>{title}</title>
+            <link
+              rel="icon"
+              href="https://www.thomasconstantinemoore.com/favicon.ico"
+            />
             <meta property="description">{metaDescription}</meta>
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content="@thomascmost" />
