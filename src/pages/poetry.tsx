@@ -46,31 +46,31 @@ Saying to our loved ones, "It'll be okay."
 "The movement grows."
 And still it snows.`);
 
-const DreamOfYou = poemize(`I dream of you in a whispering wild
-Bathed in the sun and full in bloom
-With all the colors of summer and love
-Mixing thoughts and thoughtlessness
-I want you strewn across the ground with me
-Like leaves that cannot help but brush
-To curl their fingers 'round each others' soft
-And fragile frames, like summer winds
-As if our bodies glowed with inner light
-And burst with vivid winding vines
-While sighing warmth: a dry desirous breath
-A susurrus of rustling souls
-Which catch my breath while I submit
-I yield to you, I yield to this
-This moment alone in the world with you
-I ask your eyes to strip me bare
-To touch my flesh, to turn my blood to wine
-It flows for you, it aches with heat
-And we ache doubly for each others' skin
-Still young and yearning to be desired
-And so we are; we dare to trembling touch
-And nothing stops, but nothing ends
-Not now I’ve found the tropics in your lips
-Not now that I have dreamed with you
-And so I dream of you.`);
+const BadManhattan = poemize(`What I wouldn't pay for a day to be near you
+Though you may be okay now
+Or crying your eyes out
+Or laughing that singular laugh that you have
+It's a salve to my method
+It's a fate worse than death
+To be left with this theft of your face
+And my heart
+Stop, start, and depart
+To my empty hearth
+Where I'll curl up on the coals
+That are so fucking old they burn cold
+And I'll spend too much (or too little)
+Time on this rhyme
+Turning on a dime
+Biting into a lime
+Fighting the frost that is riming my mind
+To try and conjure a half-decent memory
+Instead of a demo-reel
+A lemon peel rotting in a bad Manhattan
+And about as satisfying
+But even as I think it
+I drink it
+It's what I have
+And it's better than nothing.`);
 
 export const Poetry = () => (
   <Layout>
@@ -89,9 +89,9 @@ export const Poetry = () => (
       </div>
       <div style={{ marginBottom: "20px" }}>
         <p>
-          <em>Dream of You</em>
+          <em>A Bad Manhattan</em>
         </p>
-        <div>{DreamOfYou}</div>
+        <div>{BadManhattan}</div>
       </div>
     </div>
   </Layout>
