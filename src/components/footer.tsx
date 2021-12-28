@@ -16,6 +16,6 @@ export const Footer = styled.footer`
     margin: 0;
   }
   @media screen and (max-width: 600px) {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 `;
