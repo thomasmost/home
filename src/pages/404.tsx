@@ -1,31 +1,12 @@
 import React from "react";
 
-import { Link } from "gatsby";
-import { Container, Footer, FooterImage, Header } from "../components/layout";
-import SEO from "../components/seo";
-import { Navigation } from "../components/navigation";
+import Layout from "../components/layout";
 import { Quote } from ".";
 
 const NotFoundPage = () => (
-  <Container>
-    <section>
-      <SEO title={"404"} />
-      <Header>
-        <Link to="/">
-          <h1>Thomas Constantine 404</h1>
-        </Link>
-
-        <Navigation />
-      </Header>
-      <main>
-        <Quote>There's nothing here, unfortunately...</Quote>
-      </main>
-    </section>
-    <Footer>
-      <div>© 2021 Thomas Constantine Moore</div>
-      <FooterImage />
-    </Footer>
-  </Container>
+  <Layout header="Thomas Constantine 404" title="404">
+    <Quote>There's nothing here, unfortunately...</Quote>
+  </Layout>
 );
 
 export default NotFoundPage;

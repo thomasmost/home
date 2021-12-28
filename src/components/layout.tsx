@@ -1,11 +1,12 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { StaticQuery, graphql, Link } from "gatsby";
 
 import { Navigation } from "./navigation";
 import FeaturedImage from "./featured-image";
 import styled from "@emotion/styled";
 import SEO from "./seo";
+import { Footer } from "./footer";
+import { Container } from "./content-container";
 
 export const FooterImage = styled(FeaturedImage)`
   position: absolute;
@@ -16,26 +17,6 @@ export const FooterImage = styled(FeaturedImage)`
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
-`;
-
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "Courier New", serif;
-  margin-left: 20px;
-  height: 100%;
-  p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    a {
-      text-decoration: underline !important;
-    }
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
 `;
 
 export const Page = styled.div`
@@ -53,31 +34,12 @@ export const Main = styled.main`
   }
 `;
 
-export const Footer = styled.footer`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
-  max-height: 100px;
-  transition: 0.5s;
-  div {
-    line-height: 2em;
-  }
-  img {
-    width: 33%;
-    max-width: 400px;
-    margin: 0;
-  }
-  @media screen and (max-width: 600px) {
-    font-size: 0.9em;
-  }
-`;
-
 interface LayoutProps {
   title?: string;
+  header?: string;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, title }) => (
+const Layout: React.FC<LayoutProps> = ({ children, title, header }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -94,7 +56,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
           <SEO title={title || ""} />
           <Header>
             <Link to="/">
-              <h1>Thomas Constantine Moore</h1>
+              <h1>{header || ""}</h1>
             </Link>
 
             <Navigation />
