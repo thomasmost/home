@@ -56,7 +56,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title, header }) => (
           <SEO title={title || ""} />
           <Header>
             <Link to="/">
-              <h1>{header || ""}</h1>
+              <h1>{header || "Thomas Constantine Moore"}</h1>
             </Link>
 
             <Navigation />
