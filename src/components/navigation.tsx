@@ -5,6 +5,7 @@ import { ReactSVG } from "react-svg";
 
 import FeatherIcon from "./feather-icon";
 import styled from "@emotion/styled";
+import { OutLink } from "./OutLink";
 
 const Nav = styled.nav`
   display: flex;
@@ -21,15 +22,15 @@ const Nav = styled.nav`
 export const Navigation = () => (
   <Nav>
     <Link to="/about">About</Link>
-    <a href="https://www.instagram.com/thomascmost" target="_blank">
+    <OutLink href="https://www.instagram.com/thomascmost">
       <FeatherIcon name="instagram" />
-    </a>
-    <a href="https://www.twitter.com/thomascmost" target="_blank">
+    </OutLink>
+    <OutLink href="https://www.twitter.com/thomascmost">
       <FeatherIcon name="twitter" />
-    </a>
-    <a href="https://www.linkedin.com/in/tomconmo" target="_blank">
+    </OutLink>
+    <OutLink href="https://www.linkedin.com/in/tomconmo">
       <FeatherIcon name="linkedin" />
-    </a>
+    </OutLink>
     {/* <Link to="/projects">
     <FeatherIcon name="box" />
   </Link>

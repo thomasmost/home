@@ -59,6 +59,7 @@ export const Footer = styled.footer`
   align-items: flex-end;
   justify-content: space-between;
   max-height: 100px;
+  transition: 0.5s;
   div {
     line-height: 2em;
   }
@@ -66,6 +67,9 @@ export const Footer = styled.footer`
     width: 33%;
     max-width: 400px;
     margin: 0;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 0.9em;
   }
 `;
 
