@@ -20,11 +20,11 @@ export const About = () => (
     <p>
       <Link to="/poetry">Short Sequences of Words</Link>
     </p>
-    <p>
+    {/* <p>
       <OutLink href="https://www.thomastellsastory.com/download">
         Long Sequences of Words
       </OutLink>
-    </p>
+    </p> */}
     <p>
       <OutLink href="https://www.usatoday.com/story/entertainment/movies/2021/04/20/oscars-husavik-saved-me-during-breakup-why-deserves-win/7245416002/">
         That USA Today piece
