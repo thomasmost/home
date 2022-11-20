@@ -65,7 +65,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title, header }) => (
           <Main>{children}</Main>
         </section>
         <Footer>
-          <div>© 2021 Thomas Constantine Moore</div>
+          <div>© 2022 Thomas Constantine Moore</div>
           <FooterImage />
         </Footer>
       </Container>
