@@ -25,9 +25,6 @@ export const Navigation = () => (
     <OutLink href="https://www.instagram.com/thomascmost">
       <FeatherIcon name="instagram" />
     </OutLink>
-    <OutLink href="https://www.twitter.com/thomascmost">
-      <FeatherIcon name="twitter" />
-    </OutLink>
     <OutLink href="https://www.linkedin.com/in/tomconmo">
       <FeatherIcon name="linkedin" />
     </OutLink>

@@ -10,11 +10,11 @@ export const About = () => (
       <OutLink href="https://www.thomastellsastory.com">
         <em>Thomas Tells a Story</em>
       </OutLink>
-      . I recently produced my play{" "}
+      . I produced a play called{" "}
       <OutLink href="https://www.romans.nyc">
         <em>Romans</em>
       </OutLink>{" "}
-      at Dixon Place in the Lower East Side.
+      at Dixon Place in 2021.
     </p>
     <p>Read something I've written:</p>
     <p>
