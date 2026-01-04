@@ -1,76 +1,60 @@
-import React from "react";
-import { StaticQuery, graphql, Link } from "gatsby";
-
-import { Navigation } from "./navigation";
-import FeaturedImage from "./featured-image";
-import styled from "@emotion/styled";
-import SEO from "./seo";
-import { Footer } from "./footer";
-import { Container } from "./content-container";
-
-export const FooterImage = styled(FeaturedImage)`
-  position: absolute;
-  right: 0;
-  bottom: 0;
-`;
-
-export const Header = styled.header`
-  display: flex;
-  justify-content: space-between;
-`;
-
-export const Page = styled.div`
-  min-height: 640px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-`;
-
-export const Main = styled.main`
-  width: 80%;
-  @media screen and (max-width: 600px) {
-    width: 100%;
-    padding-right: 20px;
-  }
-`;
+import { Link, useLocation } from 'react-router-dom';
+import { ReactNode } from 'react';
 
 interface LayoutProps {
-  title?: string;
-  header?: string;
+  children: ReactNode;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, title, header }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={(data) => (
-      <Container>
-        <section>
-          <SEO title={title || ""} />
-          <Header>
-            <Link to="/">
-              <h1>{header || "Thomas Constantine Moore"}</h1>
+function Layout({ children }: LayoutProps) {
+  const location = useLocation();
+
+  const isActive = (path: string) => location.pathname === path;
+
+  return (
+    <>
+      <header className="header">
+        <div className="container header-content">
+          <Link to="/" className="site-title">
+            Thomas Constantine Moore
+          </Link>
+          <nav className="nav">
+            <Link
+              to="/about"
+              className={`nav-link ${isActive('/about') ? 'active' : ''}`}
+            >
+              About
             </Link>
+            <Link
+              to="/work"
+              className={`nav-link ${isActive('/work') ? 'active' : ''}`}
+            >
+              Work
+            </Link>
+            <Link
+              to="/poetry"
+              className={`nav-link ${isActive('/poetry') ? 'active' : ''}`}
+            >
+              Poetry
+            </Link>
+          </nav>
+        </div>
+      </header>
 
-            <Navigation />
-          </Header>
+      <main className="page">
+        <div className="container">
+          {children}
+        </div>
+      </main>
 
-          <Main>{children}</Main>
-        </section>
-        <Footer>
-          <div>© 2022 Thomas Constantine Moore</div>
-          <FooterImage />
-        </Footer>
-      </Container>
-    )}
-  />
-);
+      <footer className="footer">
+        <div className="container footer-content">
+          <span className="footer-text">
+            © {new Date().getFullYear()} Thomas Constantine Moore
+          </span>
+        </div>
+      </footer>
+    </>
+  );
+}
 
 export default Layout;
