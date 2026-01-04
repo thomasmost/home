@@ -12,7 +12,7 @@ const comingSoon: WorkItem[] = [
     publication: '',
     year: '2026',
     url: 'https://fantasylifefilm.com',
-    description: 'A short film about a couple getting out of the house to fight about getting off',
+    description: 'A short film about a couple getting out of the house to fight about getting off.',
   },
 ];
 
