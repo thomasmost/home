@@ -47,6 +47,23 @@ const projects = [
   },
 ];
 
+const screenplays = [
+  {
+    title: "It Didn't Have To Be Like This",
+    description: 'After losing her job, her relationship, and her favorite blouse, Mary becomes convinced she is living in an alternate reality, where everything is worse.',
+    awards: [
+      {
+        name: 'LA Screenplay Awards - Summer 2025 Quarter Finalist',
+        url: 'https://lascreenplayawards.com/result/',
+      },
+      {
+        name: 'Save the Cat! Screenplay Challenge - Top 25',
+        url: 'https://savethecat.com/news/save-the-cat-2025-screenplay-challenge-top-25-announced',
+      },
+    ],
+  },
+];
+
 function Work() {
   return (
     <>
@@ -74,6 +91,30 @@ function Work() {
               <p className="card-description mt-4">{work.description}</p>
             )}
           </a>
+        ))}
+      </section>
+      <br />
+
+      <section className="section">
+        <h2 className="section-title">Screenwriting</h2>
+        {screenplays.map((script) => (
+          <div key={script.title} className="work-item">
+            <div className="work-title">{script.title}</div>
+            <ul style={{ marginTop: '0.5rem', listStyle: 'none', padding: 0 }}>
+              {script.awards.map((award) => (
+                <li key={award.url} style={{ marginBottom: '0.25rem' }}>
+                  <a
+                    href={award.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'underline', color: 'inherit' }}
+                  >
+                    {award.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
       </section>
       <br />
