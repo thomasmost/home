@@ -100,6 +100,9 @@ function Work() {
         {screenplays.map((script) => (
           <div key={script.title} className="work-item">
             <div className="work-title">{script.title}</div>
+            {script.description && (
+              <p className="card-description mt-4">{script.description}</p>
+            )}
             <ul style={{ marginTop: '0.5rem', listStyle: 'none', padding: 0 }}>
               {script.awards.map((award) => (
                 <li key={award.url} style={{ marginBottom: '0.25rem' }}>
