@@ -1,11 +1,47 @@
 interface Poem {
   title: string;
+  year: string;
   lines: string[];
 }
 
 const poems: Poem[] = [
   {
+    title: 'Clay',
+    year: '2026',
+    lines: [
+      'The road to hell is paved with red brick',
+      'And well-intentioned souls',
+      'Once wet and pink upon the river-bed',
+      'Now pounded flat and stepped upon, inert',
+      'It seems to me we’re born soft',
+      'Then choose how to toughen',
+      'Whether to fold over and over',
+      'Like a sword, sharp through and through',
+      'Or to keep some jelly filling',
+      'The worst fate is to be a jawless fish',
+      'Soft all over with no more than primitive spine',
+      'So when life hits me',
+      'With all the force of a bus, or a truck,',
+      'Or a potter at his wheel',
+      'Throwing me into a new shape',
+      'As the years spin past',
+      'I go my own way',
+      'I’d rather be a hard puck of bad clay',
+      'Something not easily defined',
+      'Than a vase in someone else’s cupboard',
+      'The greatest wrong you could do me',
+      'Is make me feel an undeserved emotion',
+      'I’ve well-earned shame, worked hard for heartbreak',
+      'Done things I don’t care to dwell upon too long',
+      'Made mistakes',
+      'But when you take me in my current form',
+      'And treat me as you would a cracked and ill-performing bowl',
+      'Remember what a golem is made from',
+    ],
+  },
+  {
     title: 'The Night Visitor',
+    year: '2019',
     lines: [
       'Home is not',
       'Where the heart is but where the hearth is',
@@ -30,6 +66,7 @@ const poems: Poem[] = [
   },
   {
     title: "It's Snowing on the J Train",
+    year: '2017',
     lines: [
       "It's snowing on the J train",
       'It started with just a few flakes, outside,',
@@ -55,6 +92,7 @@ const poems: Poem[] = [
   },
   {
     title: 'A Bad Manhattan',
+    year: '2013',
     lines: [
       "What I wouldn't pay for a day to be near you",
       'Though you may be okay now',
@@ -97,7 +135,8 @@ function Poetry() {
 
       {poems.map((poem) => (
         <article key={poem.title} className="poem">
-          <h2 className="poem-title">{poem.title}</h2>
+          <h2 className="poem-title" style={{ marginBottom: '0.5rem' }}>{poem.title}</h2>
+          <p className="text-muted" style={{ marginBottom: '2rem', fontSize: '0.9rem' }}>{poem.year}</p>
           <div className="poem-lines">
             {poem.lines.map((line, index) => (
               <span key={index} className="poem-line">
