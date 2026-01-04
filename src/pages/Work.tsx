@@ -50,7 +50,7 @@ const projects = [
 const screenplays = [
   {
     title: "It Didn't Have To Be Like This",
-    description: 'After losing her job, her relationship, and her favorite blouse, Mary becomes convinced she is living in an alternate reality, where everything is worse.',
+    description: 'After losing her job, her relationship, and her favorite blouse, Mary becomes convinced she is living in an alternate reality where everything is worse.',
     awards: [
       {
         name: 'LA Screenplay Awards - Summer 2025 Quarter Finalist',
