@@ -39,6 +39,12 @@ const projects = [
     url: 'https://www.romans.nyc',
     description: 'A comedy that was produced at Dixon Place in 2021, exploring modern politics through a reimagining of the Romulus and Remus legend.',
   },
+  {
+    title: 'Versa',
+    type: 'Software',
+    url: 'https://versa.org',
+    description: 'A secure network for the transmission of business customer data to corporate software platforms. Y Combinator S22 Batch. Pays the bills.',
+  },
 ];
 
 function Work() {
