@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { ReactNode } from 'react';
+import { Analytics } from "@vercel/analytics/react"
 
 interface LayoutProps {
   children: ReactNode;
@@ -12,6 +13,7 @@ function Layout({ children }: LayoutProps) {
 
   return (
     <>
+    <Analytics />
       <header className="header">
         <div className="container header-content">
           <Link to="/" className="site-title">

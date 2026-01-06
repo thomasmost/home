@@ -1,6 +1,30 @@
 # Home
 This is my personal website.
 
+## Getting Started
+
+This project now uses [pnpm](https://pnpm.io/) for package management.
+
+### Install dependencies
+```sh
+pnpm install
+```
+
+### Start development server
+```sh
+pnpm dev
+```
+
+### Build for production
+```sh
+pnpm build
+```
+
+### Preview production build
+```sh
+pnpm preview
+```
+
 ## Accomplishments
 
 "It Didn't Have To Be Like This"
