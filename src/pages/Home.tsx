@@ -1,6 +1,18 @@
+import { useState } from 'react';
 import heroImage from '../images/fantasy-life-bts.jpg';
 
+const HERO_TAGLINES = [
+  'One of them creative types.',
+  'Often found thinking about something else.',
+  'Absent-minded digressor.',
+  'High-level bard in a low-magic setting.',
+];
+
 function Home() {
+  const [tagline] = useState(
+    () => HERO_TAGLINES[Math.floor(Math.random() * HERO_TAGLINES.length)]
+  );
+
   return (
     <div className="hero">
       <div className="hero-grid">
@@ -9,7 +21,7 @@ function Home() {
             Writer. Etc.
           </h1>
           <p className="hero-subtitle">
-            <em>One of them creative types.</em>
+            <em>{tagline}</em>
             <br />
             Seattle &rarr; Brooklyn.
           </p>
