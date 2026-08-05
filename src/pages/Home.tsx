@@ -21,7 +21,7 @@ function Home() {
             Writer. Etc.
           </h1>
           <p className="hero-subtitle">
-            <em>{tagline}</em>
+            <em className="hero-tagline">{tagline}</em>
             <br />
             Seattle &rarr; Brooklyn.
           </p>
