@@ -512,6 +512,319 @@ a:hover {
   }
 }
 
+/* ========================================
+   Character Sheet (easter egg at /character-sheet)
+
+   A port of the 2018 site's original homepage. Renders standalone, outside
+   the site chrome, and deliberately opts out of the design system + dark
+   mode: it's meant to read as a sheet of paper, not as a page of this site.
+   ======================================== */
+
+.character-sheet {
+  --cs-ink: #1a1a1a;
+  --cs-paper: #f2ede1;
+  --cs-rule: rgba(26, 26, 26, 0.55);
+  --cs-accent: #725037;
+  --cs-display: 'Newsreader', Georgia, serif;
+  --cs-hand: 'Sue Ellen Francisco', 'Bradley Hand', 'Segoe Script', cursive;
+
+  flex: 1;
+  min-height: 100vh;
+  padding: var(--space-10) var(--space-5) var(--space-12);
+  background-color: var(--cs-paper);
+  color: var(--cs-ink);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+.cs-sheet {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cs-title {
+  font-family: var(--cs-display);
+  font-size: clamp(2rem, 7vw, 3.25rem);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--cs-ink);
+  padding-bottom: var(--space-4);
+  border-bottom: 2px solid var(--cs-ink);
+  margin-bottom: var(--space-8);
+}
+
+/* Sections */
+.cs-content-block {
+  margin-top: var(--space-10);
+  text-align: left;
+}
+
+.cs-content-block-header,
+.cs-header {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--space-5);
+  font-family: var(--cs-display);
+  font-size: var(--text-2xl);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+/* Header block: identity + physical description */
+.cs-header-block {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .cs-header-block {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: var(--space-10);
+  }
+}
+
+.cs-stat-block,
+.cs-desc-block {
+  display: grid;
+  gap: var(--space-4) var(--space-5);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-content: start;
+}
+
+/* Basic stat: handwritten value over a ruled line, with a printed label */
+.cs-basic-stat {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  text-align: left;
+}
+
+.cs-basic-stat span,
+.cs-basic-stat a {
+  font-family: var(--cs-hand);
+  font-size: var(--text-xl);
+  line-height: 1.25;
+  color: var(--cs-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cs-rule);
+  padding-bottom: 2px;
+  overflow-wrap: break-word;
+}
+
+.cs-basic-stat a:hover {
+  color: var(--cs-accent);
+}
+
+.cs-basic-stat label {
+  margin-top: var(--space-1);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Attributes & skills */
+.cs-attrs-block,
+.cs-skills-block {
+  display: grid;
+  gap: var(--space-3) var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.cs-dot-stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-1) 0;
+}
+
+.cs-dot-stat label {
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cs-dots {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.cs-dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--cs-ink);
+  border-radius: 50%;
+}
+
+.cs-dot.filled {
+  background-color: var(--cs-ink);
+}
+
+/* Attacks + status sit side by side */
+.cs-combat-block,
+.cs-details-block {
+  display: grid;
+  gap: var(--space-8);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .cs-combat-block {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .cs-details-block {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.cs-attack-row {
+  margin-bottom: var(--space-5);
+}
+
+.cs-written-row,
+.cs-label-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.cs-written-row {
+  font-family: var(--cs-hand);
+  font-size: var(--text-xl);
+  border-bottom: 1px solid var(--cs-rule);
+  padding-bottom: 2px;
+}
+
+.cs-label-row label {
+  margin-top: var(--space-1);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Status bars */
+.cs-bars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.cs-status {
+  text-align: center;
+}
+
+.cs-status label {
+  display: block;
+  margin-bottom: var(--space-2);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.cs-bar-container {
+  margin-bottom: var(--space-2);
+}
+
+.cs-status-bar {
+  position: relative;
+  width: 20px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid var(--cs-ink);
+  border-radius: 3px;
+}
+
+.cs-value-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.cs-value-bar.flat {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cs-status-bar.health .cs-value-bar {
+  background-color: #772222;
+}
+
+.cs-status-bar.mana .cs-value-bar {
+  background-color: #222277;
+}
+
+.cs-status-bar.wellbeing .cs-value-bar {
+  background-color: #448800;
+}
+
+.cs-value {
+  font-size: var(--text-xs);
+}
+
+/* Traits / merits / flaws */
+.cs-list-details label {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--space-4);
+  font-family: var(--cs-display);
+  font-size: var(--text-2xl);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.cs-detail,
+.cs-inventory-item {
+  font-family: var(--cs-hand);
+  font-size: var(--text-xl);
+  line-height: 1.3;
+  border-bottom: 1px solid var(--cs-rule);
+  padding-bottom: 2px;
+  margin-bottom: var(--space-4);
+  break-inside: avoid;
+}
+
+/* Inventory */
+.cs-inventory {
+  display: grid;
+  gap: 0 var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* Footer */
+.character-sheet hr {
+  margin-top: var(--space-10);
+  border: none;
+  border-top: 1px solid var(--cs-rule);
+}
+
+.cs-footer {
+  margin-top: var(--space-5);
+  text-align: center;
+}
+
+.cs-footer a {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cs-accent);
+}
+
+.cs-footer a:hover {
+  color: var(--cs-ink);
+}
+
 /* Utilities */
 .text-center {
   text-align: center;

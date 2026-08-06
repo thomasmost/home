@@ -1,19 +1,12 @@
-import { Link, useLocation } from 'react-router-dom';
-import { ReactNode } from 'react';
-import { Analytics } from "@vercel/analytics/react"
+import { Link, useLocation, Outlet } from 'react-router-dom';
 
-interface LayoutProps {
-  children: ReactNode;
-}
-
-function Layout({ children }: LayoutProps) {
+function Layout() {
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
 
   return (
     <>
-    <Analytics />
       <header className="header">
         <div className="container header-content">
           <Link to="/" className="site-title">
@@ -44,7 +37,7 @@ function Layout({ children }: LayoutProps) {
 
       <main className="page">
         <div className="container">
-          {children}
+          <Outlet />
         </div>
       </main>
 
