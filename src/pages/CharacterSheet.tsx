@@ -344,7 +344,7 @@ function CharacterSheet() {
         <hr />
 
         <div className="cs-footer">
-          <Link to="/">← back to the present</Link>
+          <Link to="/">← back to the main site</Link>
         </div>
       </div>
     </div>
