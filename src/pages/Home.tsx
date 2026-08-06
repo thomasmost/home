@@ -3,7 +3,7 @@ import heroImage from '../images/fantasy-life-bts.jpg';
 
 const HERO_TAGLINES = [
   'One of them creative types.',
-  'Often found thinking about something else.',
+  'Possibly thinking about something else.',
   'Absent-minded digressor.',
   'High-level bard in a low-magic setting.',
 ];
