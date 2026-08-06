@@ -299,7 +299,7 @@ function CharacterSheet() {
             <BasicStat
               label="Titles"
               value="Senior Engineer"
-              href="https://www.linkedin.com/in/tomconmo"
+              href="https://www.linkedin.com/in/thomasmost"
               external
             />
           </div>

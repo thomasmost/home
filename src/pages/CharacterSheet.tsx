@@ -295,8 +295,8 @@ function CharacterSheet() {
             <BasicStat label="Rating" value={rating} />
             <BasicStat
               label="Titles"
-              value="Senior Engineer"
-              href="https://www.linkedin.com/in/tomconmo"
+              value="CTO"
+              href="https://www.linkedin.com/in/thomasmost"
               external
             />
           </div>
