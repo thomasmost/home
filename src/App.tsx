@@ -8,6 +8,7 @@ import Poetry from './pages/Poetry';
 import CharacterSheet from './pages/CharacterSheet';
 
 import NotFound from './pages/NotFound';
+import CharacterSheet2018 from './pages/CharacterSheet2018';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         {/* Easter egg: renders standalone, outside the site chrome.
             Deliberately not linked from the nav or anywhere else. */}
         <Route path="/character-sheet" element={<CharacterSheet />} />
+        <Route path="/character-sheet-2018" element={<CharacterSheet2018 />} />
       </Routes>
     </>
   );
