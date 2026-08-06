@@ -86,20 +86,20 @@ const MERITS = ['Persistence, major', 'Courage, minor', 'Fast Learner, minor'];
 const FLAWS = ['Thoughtlessness, major', 'Anxiety, minor', 'Vanity, minor'];
 
 const INVENTORY = [
-  'Dell Precision (for work)',
-  'old Asus Notebook (NOMAD)',
-  'Pilgrim Hat',
-  'Broken wrist-watches (×2)',
-  'Misc. board games (×7)',
+  'Too many MacBooks',
+  'Pixel Phone',
+  'Pixel Earbuds',
+  'Broken wrist-watches (×1)',
+  'Misc. board games (×3)',
   'Mr. Coffee coffeemaker',
   'Tattered Brooklynite outfits (×5)',
   'Apogee Microphone',
   "Stolen copy of 'Lithium for Medea'",
-  'Half-empty bottle of Bulleit Rye',
-  'Peace Lily',
-  'Red-edged Dracanae (×2)',
-  'Wok',
-  'Wooden frogs (×3)',
+  'Half-empty bottle of Laphroaig',
+  'Zizi',
+  'Pothos',
+  'Underutilized Trazodone prescription',
+  'Sunglasses (soon to be misplaced)',
   'Misc. books (×43)',
 ];
 
